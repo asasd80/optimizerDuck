@@ -2527,4 +2527,67 @@
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>详细信息已写入日志文件。</value>
   </data>
+  <data name="Sidebar.Drivers" xml:space="preserve">
+    <value>驱动程序</value>
+  </data>
+  <data name="Drivers.Header.Title" xml:space="preserve">
+    <value>驱动程序</value>
+  </data>
+  <data name="Drivers.Header.Description" xml:space="preserve">
+    <value>搜索已安装的设备驱动程序并查找更新版本。</value>
+  </data>
+  <data name="Drivers.Loading" xml:space="preserve">
+    <value>正在加载已安装的驱动程序...</value>
+  </data>
+  <data name="Drivers.Loading.Hint" xml:space="preserve">
+    <value>应用程序正在查询你的设备，可能需要一点时间。</value>
+  </data>
+  <data name="Drivers.Empty.Title" xml:space="preserve">
+    <value>未找到驱动程序</value>
+  </data>
+  <data name="Drivers.Empty.Description" xml:space="preserve">
+    <value>optimizerDuck 无法读取已安装驱动程序的列表。请尝试刷新。</value>
+  </data>
+  <data name="Drivers.Search.Placeholder" xml:space="preserve">
+    <value>按设备、提供商、版本或硬件 ID 搜索...</value>
+  </data>
+  <data name="Drivers.Search.NoResults" xml:space="preserve">
+    <value>没有匹配的驱动程序。请尝试其他关键词，或显示 Microsoft 驱动程序。</value>
+  </data>
+  <data name="Drivers.SortBy.Provider" xml:space="preserve">
+    <value>提供商</value>
+  </data>
+  <data name="Drivers.SortBy.Oldest" xml:space="preserve">
+    <value>最旧优先</value>
+  </data>
+  <data name="Drivers.HideMicrosoft" xml:space="preserve">
+    <value>隐藏 Microsoft 驱动程序</value>
+  </data>
+  <data name="Drivers.Menu.WindowsUpdate" xml:space="preserve">
+    <value>检查 Windows 更新</value>
+  </data>
+  <data name="Drivers.Menu.DeviceManager" xml:space="preserve">
+    <value>设备管理器</value>
+  </data>
+  <data name="Drivers.Menu.Refresh" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="Drivers.Count" xml:space="preserve">
+    <value>{0} 个驱动程序</value>
+  </data>
+  <data name="Drivers.InfoBar.Message" xml:space="preserve">
+    <value>在线搜索会在 Microsoft 更新目录中查找设备的硬件 ID。为获得最可靠的更新，请优先使用电脑或设备制造商提供的驱动程序，或使用 Windows 更新。</value>
+  </data>
+  <data name="Drivers.Unsigned" xml:space="preserve">
+    <value>未签名</value>
+  </data>
+  <data name="Drivers.Date" xml:space="preserve">
+    <value>日期：{0}</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline" xml:space="preserve">
+    <value>在线搜索</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
+    <value>在 Microsoft 更新目录中搜索此设备的驱动程序</value>
+  </data>
 </root>

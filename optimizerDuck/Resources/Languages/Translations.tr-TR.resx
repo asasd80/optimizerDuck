@@ -2510,4 +2510,67 @@ En son özelliklerden, iyileştirmelerden ve hata düzeltmelerinden yararlanmak 
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>Ayrıntılar günlük dosyasında.</value>
   </data>
+  <data name="Sidebar.Drivers" xml:space="preserve">
+    <value>Sürücüler</value>
+  </data>
+  <data name="Drivers.Header.Title" xml:space="preserve">
+    <value>Sürücüler</value>
+  </data>
+  <data name="Drivers.Header.Description" xml:space="preserve">
+    <value>Yüklü aygıt sürücülerini arayın ve daha yeni sürümleri bulun.</value>
+  </data>
+  <data name="Drivers.Loading" xml:space="preserve">
+    <value>Yüklü sürücüler yükleniyor...</value>
+  </data>
+  <data name="Drivers.Loading.Hint" xml:space="preserve">
+    <value>Uygulama aygıtlarınızı sorgularken bu biraz sürebilir.</value>
+  </data>
+  <data name="Drivers.Empty.Title" xml:space="preserve">
+    <value>Sürücü bulunamadı</value>
+  </data>
+  <data name="Drivers.Empty.Description" xml:space="preserve">
+    <value>optimizerDuck yüklü sürücülerin listesini okuyamadı. Yenilemeyi deneyin.</value>
+  </data>
+  <data name="Drivers.Search.Placeholder" xml:space="preserve">
+    <value>Aygıt, sağlayıcı, sürüm veya donanım kimliğine göre ara...</value>
+  </data>
+  <data name="Drivers.Search.NoResults" xml:space="preserve">
+    <value>Aramanızla eşleşen sürücü yok. Farklı bir terim deneyin veya Microsoft sürücülerini gösterin.</value>
+  </data>
+  <data name="Drivers.SortBy.Provider" xml:space="preserve">
+    <value>Sağlayıcı</value>
+  </data>
+  <data name="Drivers.SortBy.Oldest" xml:space="preserve">
+    <value>Önce en eski</value>
+  </data>
+  <data name="Drivers.HideMicrosoft" xml:space="preserve">
+    <value>Microsoft sürücülerini gizle</value>
+  </data>
+  <data name="Drivers.Menu.WindowsUpdate" xml:space="preserve">
+    <value>Windows Update'i denetle</value>
+  </data>
+  <data name="Drivers.Menu.DeviceManager" xml:space="preserve">
+    <value>Aygıt Yöneticisi</value>
+  </data>
+  <data name="Drivers.Menu.Refresh" xml:space="preserve">
+    <value>Yenile</value>
+  </data>
+  <data name="Drivers.Count" xml:space="preserve">
+    <value>{0} sürücü</value>
+  </data>
+  <data name="Drivers.InfoBar.Message" xml:space="preserve">
+    <value>Çevrimiçi ara, aygıtın donanım kimliğini Microsoft Update Kataloğu'nda arar. En güvenilir güncellemeler için bilgisayarınızın veya aygıtınızın üreticisinin sürücülerini ya da Windows Update'i tercih edin.</value>
+  </data>
+  <data name="Drivers.Unsigned" xml:space="preserve">
+    <value>İmzasız</value>
+  </data>
+  <data name="Drivers.Date" xml:space="preserve">
+    <value>Tarih: {0}</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline" xml:space="preserve">
+    <value>Çevrimiçi ara</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
+    <value>Bu aygıtın sürücüsünü Microsoft Update Kataloğu'nda ara</value>
+  </data>
 </root>

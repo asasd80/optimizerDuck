@@ -85,6 +85,12 @@
                     Cursor="Hand"
                     Icon="{ui:SymbolIcon HardDrive20}"
                     TargetPageType="{x:Type pages:DiskCleanupPage}" />
+
+                <controls:FilledNavigationViewItem
+                    Content="{extensions:Loc Sidebar.Drivers}"
+                    Cursor="Hand"
+                    Icon="{ui:SymbolIcon DeveloperBoard24}"
+                    TargetPageType="{x:Type pages:DriversPage}" />
             </ui:NavigationView.MenuItems>
 
             <ui:NavigationView.FooterMenuItems>

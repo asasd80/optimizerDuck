@@ -1,0 +1,297 @@
+<Page
+    x:Class="optimizerDuck.UI.Pages.DriversPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="clr-namespace:optimizerDuck.UI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:drivers="clr-namespace:optimizerDuck.Domain.Optimizations.Models.Drivers"
+    xmlns:ext="clr-namespace:optimizerDuck.Common.Extensions"
+    xmlns:local="clr-namespace:optimizerDuck.UI.Pages"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+    Title="DriversPage"
+    d:DataContext="{d:DesignInstance local:DriversPage}"
+    d:DesignHeight="1200"
+    d:DesignWidth="800"
+    ui:Design.Background="Black"
+    ui:Design.Foreground="White"
+    Style="{StaticResource PageRootStyle}"
+    mc:Ignorable="d">
+
+    <Grid RowDefinitions="Auto *">
+        <StackPanel Style="{StaticResource PageHeaderStyle}">
+            <ui:TextBlock Style="{StaticResource PageTitleStyle}" Text="{ext:Loc Drivers.Header.Title}" />
+            <ui:TextBlock Style="{StaticResource PageDescriptionStyle}" Text="{ext:Loc Drivers.Header.Description}" />
+        </StackPanel>
+
+        <!--  Empty (driver query returned nothing)  -->
+        <controls:EmptyStateView
+            Grid.Row="1"
+            ActionButtonText="{ext:Loc Drivers.Menu.Refresh}"
+            ActionCommand="{Binding ViewModel.RefreshCommand}"
+            Description="{ext:Loc Drivers.Empty.Description}"
+            Symbol="DeveloperBoard24"
+            Title="{ext:Loc Drivers.Empty.Title}">
+            <controls:EmptyStateView.Style>
+                <Style TargetType="controls:EmptyStateView">
+                    <Setter Property="Visibility" Value="Collapsed" />
+                    <Style.Triggers>
+                        <MultiDataTrigger>
+                            <MultiDataTrigger.Conditions>
+                                <Condition Binding="{Binding ViewModel.HasData}" Value="False" />
+                                <Condition Binding="{Binding ViewModel.IsLoading}" Value="False" />
+                            </MultiDataTrigger.Conditions>
+                            <Setter Property="Visibility" Value="Visible" />
+                        </MultiDataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </controls:EmptyStateView.Style>
+        </controls:EmptyStateView>
+
+        <!--  Loading  -->
+        <controls:LoadingStateOverlay
+            Grid.Row="1"
+            IsLoading="{Binding ViewModel.IsLoading}"
+            Subtitle="{ext:Loc Drivers.Loading.Hint}"
+            Title="{ext:Loc Drivers.Loading}" />
+
+        <Border Grid.Row="1" Visibility="{Binding ViewModel.HasData, Converter={StaticResource BooleanToVisibilityConverter}}">
+            <Grid RowDefinitions="Auto,Auto,Auto,*">
+                <!--  Search / Sort / Filter toolbar  -->
+                <Border Grid.Row="0" Style="{StaticResource ToolbarSurfaceStyle}">
+                    <WrapPanel Orientation="Horizontal">
+                        <ui:TextBox
+                            Icon="{ui:SymbolIcon Search24}"
+                            PlaceholderText="{ext:Loc Drivers.Search.Placeholder}"
+                            Style="{StaticResource SearchBoxStyle}"
+                            Text="{Binding ViewModel.SearchText, UpdateSourceTrigger=PropertyChanged}" />
+
+                        <ComboBox
+                            SelectedIndex="{Binding ViewModel.SelectedSortByIndex}"
+                            ToolTip="{ext:Loc Common.SortBy}"
+                            ToolTipService.BetweenShowDelay="160"
+                            ToolTipService.Placement="Top">
+                            <ComboBoxItem HorizontalContentAlignment="Left">
+                                <Grid HorizontalAlignment="Left" ColumnDefinitions="Auto Auto">
+                                    <ui:SymbolIcon
+                                        Margin="0,0,6,0"
+                                        HorizontalAlignment="Left"
+                                        Symbol="TextSortAscending24" />
+                                    <TextBlock Grid.Column="1" Text="{ext:Loc Common.SortBy.Name}" />
+                                </Grid>
+                            </ComboBoxItem>
+                            <ComboBoxItem HorizontalContentAlignment="Left">
+                                <Grid HorizontalAlignment="Left" ColumnDefinitions="Auto Auto">
+                                    <ui:SymbolIcon
+                                        Margin="0,0,6,0"
+                                        HorizontalAlignment="Left"
+                                        Symbol="Person24" />
+                                    <TextBlock Grid.Column="1" Text="{ext:Loc Drivers.SortBy.Provider}" />
+                                </Grid>
+                            </ComboBoxItem>
+                            <ComboBoxItem HorizontalContentAlignment="Left">
+                                <Grid HorizontalAlignment="Left" ColumnDefinitions="Auto Auto">
+                                    <ui:SymbolIcon
+                                        Margin="0,0,6,0"
+                                        HorizontalAlignment="Left"
+                                        Symbol="Timer24" />
+                                    <TextBlock Grid.Column="1" Text="{ext:Loc Drivers.SortBy.Oldest}" />
+                                </Grid>
+                            </ComboBoxItem>
+                        </ComboBox>
+
+                        <ui:ToggleSwitch
+                            IsChecked="{Binding ViewModel.HideMicrosoftDrivers, Mode=TwoWay}"
+                            OffContent="{ext:Loc Drivers.HideMicrosoft}"
+                            OnContent="{ext:Loc Drivers.HideMicrosoft}" />
+                    </WrapPanel>
+                </Border>
+
+                <!--  Action buttons  -->
+                <WrapPanel
+                    Grid.Row="1"
+                    Margin="0,0,0,12"
+                    Orientation="Horizontal">
+                    <ui:Button
+                        Margin="0,0,4,4"
+                        Appearance="Primary"
+                        Command="{Binding ViewModel.OpenWindowsUpdateCommand}"
+                        Content="{ext:Loc Drivers.Menu.WindowsUpdate}"
+                        Cursor="Hand"
+                        Icon="{ui:SymbolIcon ArrowClockwise24,
+                                             FontSize=18}" />
+                    <ui:Button
+                        Margin="0,0,4,4"
+                        Command="{Binding ViewModel.OpenDeviceManagerCommand}"
+                        Content="{ext:Loc Drivers.Menu.DeviceManager}"
+                        Cursor="Hand"
+                        Icon="{ui:SymbolIcon DeveloperBoard24,
+                                             FontSize=18}" />
+                    <ui:Button
+                        Margin="0,0,4,4"
+                        Command="{Binding ViewModel.RefreshCommand}"
+                        Content="{ext:Loc Drivers.Menu.Refresh}"
+                        Cursor="Hand"
+                        Icon="{ui:SymbolIcon ArrowClockwise24,
+                                             FontSize=18}" />
+                    <ui:TextBlock
+                        Margin="8,0,0,4"
+                        VerticalAlignment="Center"
+                        Foreground="{DynamicResource TextFillColorSecondaryBrush}"
+                        Text="{ext:Loc Drivers.Count,
+                                       {Binding ViewModel.VisibleCount}}" />
+                </WrapPanel>
+
+                <!--  Where "search online" goes, and a nudge toward the manufacturer  -->
+                <ui:InfoBar
+                    Grid.Row="2"
+                    Margin="0,0,0,12"
+                    IsClosable="False"
+                    IsOpen="True"
+                    Message="{ext:Loc Drivers.InfoBar.Message}"
+                    Severity="Informational" />
+
+                <!--  No search results  -->
+                <controls:EmptyStateView
+                    Grid.Row="3"
+                    Description="{ext:Loc Drivers.Search.NoResults}"
+                    Symbol="SearchInfo24"
+                    Visibility="{Binding ViewModel.Drivers.Count, Converter={StaticResource ZeroToVisibilityConverter}}" />
+
+                <ItemsControl
+                    Grid.Row="3"
+                    ItemsSource="{Binding ViewModel.Drivers}"
+                    Visibility="{Binding ViewModel.Drivers.Count, Converter={StaticResource GreaterThanZeroToVisibilityConverter}}">
+                    <ItemsControl.Template>
+                        <ControlTemplate TargetType="ItemsControl">
+                            <ScrollViewer HorizontalScrollBarVisibility="Disabled">
+                                <ItemsPresenter />
+                            </ScrollViewer>
+                        </ControlTemplate>
+                    </ItemsControl.Template>
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <VirtualizingStackPanel />
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate DataType="{x:Type drivers:DriverInfo}">
+                            <Border Style="{StaticResource ListRowStyle}">
+                                <Grid ColumnDefinitions="Auto,*,Auto">
+                                    <ui:SymbolIcon
+                                        Grid.Column="0"
+                                        Margin="0,2,12,0"
+                                        VerticalAlignment="Top"
+                                        FontSize="24"
+                                        Foreground="{DynamicResource TextFillColorSecondaryBrush}"
+                                        Symbol="DeveloperBoard24" />
+
+                                    <StackPanel Grid.Column="1">
+                                        <DockPanel LastChildFill="False">
+                                            <ui:TextBlock
+                                                FontTypography="BodyStrong"
+                                                Text="{Binding DeviceName}"
+                                                TextTrimming="CharacterEllipsis" />
+
+                                            <Border
+                                                Margin="8,0,0,0"
+                                                Padding="4,1"
+                                                VerticalAlignment="Center"
+                                                Style="{StaticResource SubtlePillStyle}">
+                                                <ui:TextBlock
+                                                    VerticalAlignment="Center"
+                                                    FlowDirection="LeftToRight"
+                                                    FontTypography="Body"
+                                                    Foreground="{DynamicResource TextFillColorTertiaryBrush}"
+                                                    Text="{Binding Version}" />
+                                            </Border>
+
+                                            <!--  Unsigned warning  -->
+                                            <StackPanel
+                                                Margin="8,0,0,0"
+                                                VerticalAlignment="Center"
+                                                Orientation="Horizontal">
+                                                <StackPanel.Style>
+                                                    <Style TargetType="StackPanel">
+                                                        <Setter Property="Visibility" Value="Collapsed" />
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding IsSigned}" Value="False">
+                                                                <Setter Property="Visibility" Value="Visible" />
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </StackPanel.Style>
+                                                <ui:SymbolIcon
+                                                    Margin="0,0,4,0"
+                                                    FontSize="14"
+                                                    Foreground="{DynamicResource SystemFillColorCautionBrush}"
+                                                    Symbol="Warning24" />
+                                                <ui:TextBlock
+                                                    FontTypography="Caption"
+                                                    Foreground="{DynamicResource SystemFillColorCautionBrush}"
+                                                    Text="{ext:Loc Drivers.Unsigned}" />
+                                            </StackPanel>
+                                        </DockPanel>
+
+                                        <!--  Provider  -->
+                                        <ui:TextBlock
+                                            Margin="0,2,0,0"
+                                            FontTypography="Body"
+                                            Foreground="{DynamicResource TextFillColorDisabledBrush}"
+                                            Text="{Binding Provider}"
+                                            TextTrimming="CharacterEllipsis" />
+
+                                        <!--  Class, date, inf  -->
+                                        <WrapPanel Margin="0,2,0,0">
+                                            <ui:TextBlock
+                                                Margin="0,0,12,0"
+                                                FontTypography="Caption"
+                                                Foreground="{DynamicResource TextFillColorSecondaryBrush}"
+                                                Text="{Binding DeviceClass}" />
+                                            <ui:TextBlock
+                                                Margin="0,0,12,0"
+                                                FontTypography="Caption"
+                                                Foreground="{DynamicResource TextFillColorSecondaryBrush}"
+                                                Text="{ext:Loc Drivers.Date,
+                                                               {Binding DateText}}"
+                                                Visibility="{Binding HasDate, Converter={StaticResource BooleanToVisibilityConverter}}" />
+                                            <ui:TextBlock
+                                                FlowDirection="LeftToRight"
+                                                FontTypography="Caption"
+                                                Foreground="{DynamicResource TextFillColorSecondaryBrush}"
+                                                Text="{Binding InfName}" />
+                                        </WrapPanel>
+
+                                        <!--  Hardware ID  -->
+                                        <ui:TextBlock
+                                            Margin="0,2,0,0"
+                                            HorizontalAlignment="Left"
+                                            FlowDirection="LeftToRight"
+                                            FontTypography="Caption"
+                                            Foreground="{DynamicResource TextFillColorTertiaryBrush}"
+                                            Text="{Binding HardwareId}"
+                                            TextTrimming="CharacterEllipsis"
+                                            Visibility="{Binding HasHardwareId, Converter={StaticResource BooleanToVisibilityConverter}}" />
+                                    </StackPanel>
+
+                                    <ui:Button
+                                        Grid.Column="2"
+                                        Margin="12,0,0,0"
+                                        VerticalAlignment="Center"
+                                        Command="{Binding DataContext.ViewModel.SearchOnlineCommand, RelativeSource={RelativeSource AncestorType=Page}}"
+                                        CommandParameter="{Binding}"
+                                        Content="{ext:Loc Drivers.Action.SearchOnline}"
+                                        Cursor="Hand"
+                                        Icon="{ui:SymbolIcon Globe24,
+                                                             FontSize=16}"
+                                        ToolTip="{ext:Loc Drivers.Action.SearchOnline.Tooltip}" />
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

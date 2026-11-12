@@ -2519,4 +2519,67 @@ Atualize agora para desfrutar das últimas funcionalidades, melhorias e correç�
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>Os detalhes estão no arquivo de log.</value>
   </data>
+  <data name="Sidebar.Drivers" xml:space="preserve">
+    <value>Drivers</value>
+  </data>
+  <data name="Drivers.Header.Title" xml:space="preserve">
+    <value>Drivers</value>
+  </data>
+  <data name="Drivers.Header.Description" xml:space="preserve">
+    <value>Pesquise os drivers de dispositivo instalados e encontre versões mais recentes.</value>
+  </data>
+  <data name="Drivers.Loading" xml:space="preserve">
+    <value>Carregando drivers instalados...</value>
+  </data>
+  <data name="Drivers.Loading.Hint" xml:space="preserve">
+    <value>Isso pode levar um momento enquanto o aplicativo consulta seus dispositivos.</value>
+  </data>
+  <data name="Drivers.Empty.Title" xml:space="preserve">
+    <value>Nenhum driver encontrado</value>
+  </data>
+  <data name="Drivers.Empty.Description" xml:space="preserve">
+    <value>O optimizerDuck não conseguiu ler a lista de drivers instalados. Tente atualizar.</value>
+  </data>
+  <data name="Drivers.Search.Placeholder" xml:space="preserve">
+    <value>Pesquisar por dispositivo, fornecedor, versão ou ID de hardware...</value>
+  </data>
+  <data name="Drivers.Search.NoResults" xml:space="preserve">
+    <value>Nenhum driver corresponde à sua pesquisa. Tente outro termo ou mostre os drivers da Microsoft.</value>
+  </data>
+  <data name="Drivers.SortBy.Provider" xml:space="preserve">
+    <value>Fornecedor</value>
+  </data>
+  <data name="Drivers.SortBy.Oldest" xml:space="preserve">
+    <value>Mais antigos primeiro</value>
+  </data>
+  <data name="Drivers.HideMicrosoft" xml:space="preserve">
+    <value>Ocultar drivers da Microsoft</value>
+  </data>
+  <data name="Drivers.Menu.WindowsUpdate" xml:space="preserve">
+    <value>Verificar o Windows Update</value>
+  </data>
+  <data name="Drivers.Menu.DeviceManager" xml:space="preserve">
+    <value>Gerenciador de Dispositivos</value>
+  </data>
+  <data name="Drivers.Menu.Refresh" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="Drivers.Count" xml:space="preserve">
+    <value>{0} drivers</value>
+  </data>
+  <data name="Drivers.InfoBar.Message" xml:space="preserve">
+    <value>Pesquisar online procura o ID de hardware do dispositivo no Catálogo do Microsoft Update. Para atualizações mais confiáveis, prefira drivers do fabricante do seu PC ou dispositivo, ou use o Windows Update.</value>
+  </data>
+  <data name="Drivers.Unsigned" xml:space="preserve">
+    <value>Não assinado</value>
+  </data>
+  <data name="Drivers.Date" xml:space="preserve">
+    <value>Data: {0}</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline" xml:space="preserve">
+    <value>Pesquisar online</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
+    <value>Pesquisar o driver deste dispositivo no Catálogo do Microsoft Update</value>
+  </data>
 </root>

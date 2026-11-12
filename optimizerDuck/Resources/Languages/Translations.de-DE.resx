@@ -2571,4 +2571,67 @@ Aktualisiere jetzt, um die neuesten Funktionen, Verbesserungen und Fehlerbehebun
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>Details stehen in der Protokolldatei.</value>
   </data>
+  <data name="Sidebar.Drivers" xml:space="preserve">
+    <value>Treiber</value>
+  </data>
+  <data name="Drivers.Header.Title" xml:space="preserve">
+    <value>Treiber</value>
+  </data>
+  <data name="Drivers.Header.Description" xml:space="preserve">
+    <value>Installierte Gerätetreiber durchsuchen und neuere Versionen finden.</value>
+  </data>
+  <data name="Drivers.Loading" xml:space="preserve">
+    <value>Installierte Treiber werden geladen...</value>
+  </data>
+  <data name="Drivers.Loading.Hint" xml:space="preserve">
+    <value>Dies kann einen Moment dauern, während die Anwendung deine Geräte abfragt.</value>
+  </data>
+  <data name="Drivers.Empty.Title" xml:space="preserve">
+    <value>Keine Treiber gefunden</value>
+  </data>
+  <data name="Drivers.Empty.Description" xml:space="preserve">
+    <value>optimizerDuck konnte die Liste der installierten Treiber nicht lesen. Versuche es mit Aktualisieren.</value>
+  </data>
+  <data name="Drivers.Search.Placeholder" xml:space="preserve">
+    <value>Nach Gerät, Anbieter, Version oder Hardware-ID suchen...</value>
+  </data>
+  <data name="Drivers.Search.NoResults" xml:space="preserve">
+    <value>Keine Treiber entsprechen deiner Suche. Versuche einen anderen Begriff oder zeige Microsoft-Treiber an.</value>
+  </data>
+  <data name="Drivers.SortBy.Provider" xml:space="preserve">
+    <value>Anbieter</value>
+  </data>
+  <data name="Drivers.SortBy.Oldest" xml:space="preserve">
+    <value>Älteste zuerst</value>
+  </data>
+  <data name="Drivers.HideMicrosoft" xml:space="preserve">
+    <value>Microsoft-Treiber ausblenden</value>
+  </data>
+  <data name="Drivers.Menu.WindowsUpdate" xml:space="preserve">
+    <value>Windows Update prüfen</value>
+  </data>
+  <data name="Drivers.Menu.DeviceManager" xml:space="preserve">
+    <value>Geräte-Manager</value>
+  </data>
+  <data name="Drivers.Menu.Refresh" xml:space="preserve">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="Drivers.Count" xml:space="preserve">
+    <value>{0} Treiber</value>
+  </data>
+  <data name="Drivers.InfoBar.Message" xml:space="preserve">
+    <value>Online suchen schlägt die Hardware-ID des Geräts im Microsoft Update-Katalog nach. Am zuverlässigsten sind Treiber vom Hersteller deines PCs oder Geräts oder Windows Update.</value>
+  </data>
+  <data name="Drivers.Unsigned" xml:space="preserve">
+    <value>Nicht signiert</value>
+  </data>
+  <data name="Drivers.Date" xml:space="preserve">
+    <value>Datum: {0}</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline" xml:space="preserve">
+    <value>Online suchen</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
+    <value>Den Microsoft Update-Katalog nach dem Treiber dieses Geräts durchsuchen</value>
+  </data>
 </root>

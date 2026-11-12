@@ -2519,4 +2519,67 @@
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>Подробности в файле журнала.</value>
   </data>
+  <data name="Sidebar.Drivers" xml:space="preserve">
+    <value>Драйверы</value>
+  </data>
+  <data name="Drivers.Header.Title" xml:space="preserve">
+    <value>Драйверы</value>
+  </data>
+  <data name="Drivers.Header.Description" xml:space="preserve">
+    <value>Поиск установленных драйверов устройств и более новых версий.</value>
+  </data>
+  <data name="Drivers.Loading" xml:space="preserve">
+    <value>Загрузка установленных драйверов...</value>
+  </data>
+  <data name="Drivers.Loading.Hint" xml:space="preserve">
+    <value>Это может занять некоторое время, пока приложение опрашивает устройства.</value>
+  </data>
+  <data name="Drivers.Empty.Title" xml:space="preserve">
+    <value>Драйверы не найдены</value>
+  </data>
+  <data name="Drivers.Empty.Description" xml:space="preserve">
+    <value>optimizerDuck не удалось прочитать список установленных драйверов. Попробуйте обновить.</value>
+  </data>
+  <data name="Drivers.Search.Placeholder" xml:space="preserve">
+    <value>Поиск по устройству, поставщику, версии или ИД оборудования...</value>
+  </data>
+  <data name="Drivers.Search.NoResults" xml:space="preserve">
+    <value>Нет драйверов, соответствующих запросу. Попробуйте другой запрос или покажите драйверы Microsoft.</value>
+  </data>
+  <data name="Drivers.SortBy.Provider" xml:space="preserve">
+    <value>Поставщик</value>
+  </data>
+  <data name="Drivers.SortBy.Oldest" xml:space="preserve">
+    <value>Сначала старые</value>
+  </data>
+  <data name="Drivers.HideMicrosoft" xml:space="preserve">
+    <value>Скрыть драйверы Microsoft</value>
+  </data>
+  <data name="Drivers.Menu.WindowsUpdate" xml:space="preserve">
+    <value>Проверить Windows Update</value>
+  </data>
+  <data name="Drivers.Menu.DeviceManager" xml:space="preserve">
+    <value>Диспетчер устройств</value>
+  </data>
+  <data name="Drivers.Menu.Refresh" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="Drivers.Count" xml:space="preserve">
+    <value>Драйверов: {0}</value>
+  </data>
+  <data name="Drivers.InfoBar.Message" xml:space="preserve">
+    <value>Поиск в Интернете ищет ИД оборудования устройства в каталоге Центра обновления Майкрософт. Для самых надежных обновлений используйте драйверы от производителя компьютера или устройства либо Windows Update.</value>
+  </data>
+  <data name="Drivers.Unsigned" xml:space="preserve">
+    <value>Без подписи</value>
+  </data>
+  <data name="Drivers.Date" xml:space="preserve">
+    <value>Дата: {0}</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline" xml:space="preserve">
+    <value>Найти в Интернете</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
+    <value>Найти драйвер этого устройства в каталоге Центра обновления Майкрософт</value>
+  </data>
 </root>

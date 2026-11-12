@@ -2511,4 +2511,67 @@
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>詳細はログ ファイルに記録されています。</value>
   </data>
+  <data name="Sidebar.Drivers" xml:space="preserve">
+    <value>ドライバー</value>
+  </data>
+  <data name="Drivers.Header.Title" xml:space="preserve">
+    <value>ドライバー</value>
+  </data>
+  <data name="Drivers.Header.Description" xml:space="preserve">
+    <value>インストール済みのデバイスドライバーを検索し、新しいバージョンを見つけます。</value>
+  </data>
+  <data name="Drivers.Loading" xml:space="preserve">
+    <value>インストール済みのドライバーを読み込んでいます...</value>
+  </data>
+  <data name="Drivers.Loading.Hint" xml:space="preserve">
+    <value>アプリがデバイスを照会するまで、しばらくお待ちください。</value>
+  </data>
+  <data name="Drivers.Empty.Title" xml:space="preserve">
+    <value>ドライバーが見つかりません</value>
+  </data>
+  <data name="Drivers.Empty.Description" xml:space="preserve">
+    <value>optimizerDuck はインストール済みドライバーの一覧を読み取れませんでした。更新してみてください。</value>
+  </data>
+  <data name="Drivers.Search.Placeholder" xml:space="preserve">
+    <value>デバイス、提供元、バージョン、ハードウェア ID で検索…</value>
+  </data>
+  <data name="Drivers.Search.NoResults" xml:space="preserve">
+    <value>一致するドライバーがありません。別の語句を試すか、Microsoft のドライバーを表示してください。</value>
+  </data>
+  <data name="Drivers.SortBy.Provider" xml:space="preserve">
+    <value>提供元</value>
+  </data>
+  <data name="Drivers.SortBy.Oldest" xml:space="preserve">
+    <value>古い順</value>
+  </data>
+  <data name="Drivers.HideMicrosoft" xml:space="preserve">
+    <value>Microsoft のドライバーを非表示</value>
+  </data>
+  <data name="Drivers.Menu.WindowsUpdate" xml:space="preserve">
+    <value>Windows Update を確認</value>
+  </data>
+  <data name="Drivers.Menu.DeviceManager" xml:space="preserve">
+    <value>デバイス マネージャー</value>
+  </data>
+  <data name="Drivers.Menu.Refresh" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="Drivers.Count" xml:space="preserve">
+    <value>{0} 個のドライバー</value>
+  </data>
+  <data name="Drivers.InfoBar.Message" xml:space="preserve">
+    <value>オンライン検索では、デバイスのハードウェア ID を Microsoft Update カタログで検索します。より確実な更新には、PC やデバイスの製造元のドライバー、または Windows Update を優先してください。</value>
+  </data>
+  <data name="Drivers.Unsigned" xml:space="preserve">
+    <value>未署名</value>
+  </data>
+  <data name="Drivers.Date" xml:space="preserve">
+    <value>日付: {0}</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline" xml:space="preserve">
+    <value>オンラインで検索</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
+    <value>このデバイスのドライバーを Microsoft Update カタログで検索</value>
+  </data>
 </root>

@@ -2576,4 +2576,67 @@
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>جزئیات در فایل لاگ ثبت شده است.</value>
   </data>
+  <data name="Sidebar.Drivers" xml:space="preserve">
+    <value>درایورها</value>
+  </data>
+  <data name="Drivers.Header.Title" xml:space="preserve">
+    <value>درایورها</value>
+  </data>
+  <data name="Drivers.Header.Description" xml:space="preserve">
+    <value>درایورهای نصب‌شده دستگاه‌ها را جست‌وجو کنید و نسخه‌های جدیدتر را پیدا کنید.</value>
+  </data>
+  <data name="Drivers.Loading" xml:space="preserve">
+    <value>در حال بارگذاری درایورهای نصب‌شده...</value>
+  </data>
+  <data name="Drivers.Loading.Hint" xml:space="preserve">
+    <value>ممکن است کمی طول بکشد تا برنامه دستگاه‌های شما را بررسی کند.</value>
+  </data>
+  <data name="Drivers.Empty.Title" xml:space="preserve">
+    <value>درایوری یافت نشد</value>
+  </data>
+  <data name="Drivers.Empty.Description" xml:space="preserve">
+    <value>optimizerDuck نتوانست فهرست درایورهای نصب‌شده را بخواند. دوباره بارگذاری کنید.</value>
+  </data>
+  <data name="Drivers.Search.Placeholder" xml:space="preserve">
+    <value>جست‌وجو بر اساس دستگاه، ارائه‌دهنده، نسخه یا شناسه سخت‌افزار...</value>
+  </data>
+  <data name="Drivers.Search.NoResults" xml:space="preserve">
+    <value>هیچ درایوری با جست‌وجوی شما مطابقت ندارد. عبارت دیگری امتحان کنید یا درایورهای Microsoft را نمایش دهید.</value>
+  </data>
+  <data name="Drivers.SortBy.Provider" xml:space="preserve">
+    <value>ارائه‌دهنده</value>
+  </data>
+  <data name="Drivers.SortBy.Oldest" xml:space="preserve">
+    <value>قدیمی‌ترین ابتدا</value>
+  </data>
+  <data name="Drivers.HideMicrosoft" xml:space="preserve">
+    <value>پنهان کردن درایورهای Microsoft</value>
+  </data>
+  <data name="Drivers.Menu.WindowsUpdate" xml:space="preserve">
+    <value>بررسی Windows Update</value>
+  </data>
+  <data name="Drivers.Menu.DeviceManager" xml:space="preserve">
+    <value>مدیریت دستگاه</value>
+  </data>
+  <data name="Drivers.Menu.Refresh" xml:space="preserve">
+    <value>بارگذاری مجدد</value>
+  </data>
+  <data name="Drivers.Count" xml:space="preserve">
+    <value>{0} درایور</value>
+  </data>
+  <data name="Drivers.InfoBar.Message" xml:space="preserve">
+    <value>جست‌وجوی آنلاین، شناسه سخت‌افزار دستگاه را در کاتالوگ Microsoft Update جست‌وجو می‌کند. برای به‌روزرسانی مطمئن‌تر، درایورهای سازنده رایانه یا دستگاه خود را ترجیح دهید یا از Windows Update استفاده کنید.</value>
+  </data>
+  <data name="Drivers.Unsigned" xml:space="preserve">
+    <value>امضا نشده</value>
+  </data>
+  <data name="Drivers.Date" xml:space="preserve">
+    <value>تاریخ: {0}</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline" xml:space="preserve">
+    <value>جست‌وجوی آنلاین</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
+    <value>جست‌وجوی درایور این دستگاه در کاتالوگ Microsoft Update</value>
+  </data>
 </root>

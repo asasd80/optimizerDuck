@@ -72,6 +72,8 @@ public static class ApplicationServiceCollectionExtensions
         services.AddSingleton<StartupManagerPage>();
         services.AddSingleton<ScheduledTasksViewModel>();
         services.AddSingleton<ScheduledTasksPage>();
+        services.AddSingleton<DriversViewModel>();
+        services.AddSingleton<DriversPage>();
 
         services.AddTransient<LegalDialogViewModel>();
         services.AddTransient<optimizerDuck.UI.Dialogs.LegalDialog>();
@@ -98,6 +100,7 @@ public static class ApplicationServiceCollectionExtensions
         services.AddSingleton<BloatwareService>();
         services.AddSingleton<DiskCleanupService>();
         services.AddSingleton<StartupManagerService>();
+        services.AddSingleton<DriverService>();
         services.AddSingleton<SystemInfoService>();
         services.AddSingleton<StreamService>();
         services.AddSingleton<UpdaterService>();

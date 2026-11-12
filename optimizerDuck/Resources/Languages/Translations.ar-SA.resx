@@ -2561,5 +2561,68 @@
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>التفاصيل موجودة في ملف السجل.</value>
   </data>
+  <data name="Sidebar.Drivers" xml:space="preserve">
+    <value>التعريفات</value>
+  </data>
+  <data name="Drivers.Header.Title" xml:space="preserve">
+    <value>التعريفات (Drivers)</value>
+  </data>
+  <data name="Drivers.Header.Description" xml:space="preserve">
+    <value>ابحث في تعريفات الأجهزة المثبتة واعثر على إصدارات أحدث منها.</value>
+  </data>
+  <data name="Drivers.Loading" xml:space="preserve">
+    <value>جارٍ تحميل التعريفات المثبتة...</value>
+  </data>
+  <data name="Drivers.Loading.Hint" xml:space="preserve">
+    <value>قد يستغرق هذا لحظة بينما يستعلم التطبيق عن أجهزتك.</value>
+  </data>
+  <data name="Drivers.Empty.Title" xml:space="preserve">
+    <value>لم يُعثر على تعريفات</value>
+  </data>
+  <data name="Drivers.Empty.Description" xml:space="preserve">
+    <value>تعذّر على optimizerDuck قراءة قائمة التعريفات المثبتة. جرّب التحديث.</value>
+  </data>
+  <data name="Drivers.Search.Placeholder" xml:space="preserve">
+    <value>ابحث باسم الجهاز أو المزوّد أو الإصدار أو معرّف العتاد...</value>
+  </data>
+  <data name="Drivers.Search.NoResults" xml:space="preserve">
+    <value>لا توجد تعريفات تطابق بحثك. جرّب كلمة أخرى أو أظهر تعريفات Microsoft.</value>
+  </data>
+  <data name="Drivers.SortBy.Provider" xml:space="preserve">
+    <value>المزوّد</value>
+  </data>
+  <data name="Drivers.SortBy.Oldest" xml:space="preserve">
+    <value>الأقدم أولًا</value>
+  </data>
+  <data name="Drivers.HideMicrosoft" xml:space="preserve">
+    <value>إخفاء تعريفات Microsoft</value>
+  </data>
+  <data name="Drivers.Menu.WindowsUpdate" xml:space="preserve">
+    <value>التحقق من Windows Update</value>
+  </data>
+  <data name="Drivers.Menu.DeviceManager" xml:space="preserve">
+    <value>إدارة الأجهزة</value>
+  </data>
+  <data name="Drivers.Menu.Refresh" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="Drivers.Count" xml:space="preserve">
+    <value>{0} تعريف</value>
+  </data>
+  <data name="Drivers.InfoBar.Message" xml:space="preserve">
+    <value>يبحث زر «بحث على الإنترنت» عن معرّف عتاد الجهاز في كتالوج Microsoft Update. للحصول على تحديثات موثوقة، فضّل التعريفات من الشركة المصنّعة لجهازك أو استخدم Windows Update.</value>
+  </data>
+  <data name="Drivers.Unsigned" xml:space="preserve">
+    <value>غير موقّع</value>
+  </data>
+  <data name="Drivers.Date" xml:space="preserve">
+    <value>التاريخ: {0}</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline" xml:space="preserve">
+    <value>بحث على الإنترنت</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
+    <value>ابحث في كتالوج Microsoft Update عن تعريف هذا الجهاز</value>
+  </data>
 </root>
 
