@@ -2574,4 +2574,7 @@ Cập nhật ngay để trải nghiệm các tính năng mới, cải tiến và
   <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
     <value>Tìm driver của thiết bị này trong Microsoft Update Catalog</value>
   </data>
+  <data name="Drivers.Action.SearchOnline.Unavailable" xml:space="preserve">
+    <value>Đây là thiết bị ảo có driver đi kèm Windows, nên catalog không có gì cho nó. Hãy dùng Windows Update.</value>
+  </data>
 </root>

@@ -2590,4 +2590,7 @@
   <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
     <value>在 Microsoft 更新目录中搜索此设备的驱动程序</value>
   </data>
+  <data name="Drivers.Action.SearchOnline.Unavailable" xml:space="preserve">
+    <value>这是一个随 Windows 提供驱动程序的虚拟设备，因此目录中没有相关内容。请改用 Windows 更新。</value>
+  </data>
 </root>

@@ -2634,4 +2634,7 @@ Aktualisiere jetzt, um die neuesten Funktionen, Verbesserungen und Fehlerbehebun
   <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
     <value>Den Microsoft Update-Katalog nach dem Treiber dieses Geräts durchsuchen</value>
   </data>
+  <data name="Drivers.Action.SearchOnline.Unavailable" xml:space="preserve">
+    <value>Dies ist ein virtuelles Gerät, dessen Treiber mit Windows geliefert wird, daher gibt es im Katalog nichts dafür. Verwende stattdessen Windows Update.</value>
+  </data>
 </root>

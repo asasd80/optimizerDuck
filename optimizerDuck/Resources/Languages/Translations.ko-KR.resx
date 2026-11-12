@@ -2573,4 +2573,7 @@
   <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
     <value>Microsoft Update 카탈로그에서 이 장치의 드라이버 검색</value>
   </data>
+  <data name="Drivers.Action.SearchOnline.Unavailable" xml:space="preserve">
+    <value>Windows에 포함된 드라이버를 사용하는 가상 장치이므로 카탈로그에 해당 항목이 없습니다. 대신 Windows Update를 사용하세요.</value>
+  </data>
 </root>

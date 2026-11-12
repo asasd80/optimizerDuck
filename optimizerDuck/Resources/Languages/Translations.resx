@@ -2640,4 +2640,7 @@ Update now to enjoy the latest features, improvements, and bug fixes.</value>
   <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
     <value>Search the Microsoft Update Catalog for this device's driver</value>
   </data>
+  <data name="Drivers.Action.SearchOnline.Unavailable" xml:space="preserve">
+    <value>This is a virtual device whose driver comes with Windows, so the catalog has nothing for it. Use Windows Update instead.</value>
+  </data>
 </root>

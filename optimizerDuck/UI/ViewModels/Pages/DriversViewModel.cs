@@ -159,7 +159,7 @@ public partial class DriversViewModel : ViewModel
     [RelayCommand]
     private void SearchOnline(DriverInfo? driver)
     {
-        if (driver is null)
+        if (driver?.CanSearchCatalog != true)
             return;
 
         _logger.LogInformation(

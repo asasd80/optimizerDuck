@@ -2582,4 +2582,7 @@ Atualize agora para desfrutar das últimas funcionalidades, melhorias e correç�
   <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
     <value>Pesquisar o driver deste dispositivo no Catálogo do Microsoft Update</value>
   </data>
+  <data name="Drivers.Action.SearchOnline.Unavailable" xml:space="preserve">
+    <value>Este é um dispositivo virtual cujo driver vem com o Windows, então o catálogo não tem nada para ele. Use o Windows Update.</value>
+  </data>
 </root>

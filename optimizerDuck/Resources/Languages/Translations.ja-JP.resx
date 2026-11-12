@@ -2574,4 +2574,7 @@
   <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
     <value>このデバイスのドライバーを Microsoft Update カタログで検索</value>
   </data>
+  <data name="Drivers.Action.SearchOnline.Unavailable" xml:space="preserve">
+    <value>これは Windows に付属するドライバーを使う仮想デバイスのため、カタログには該当するものがありません。代わりに Windows Update を使用してください。</value>
+  </data>
 </root>

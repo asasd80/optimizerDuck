@@ -2639,4 +2639,7 @@
   <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
     <value>جست‌وجوی درایور این دستگاه در کاتالوگ Microsoft Update</value>
   </data>
+  <data name="Drivers.Action.SearchOnline.Unavailable" xml:space="preserve">
+    <value>این یک دستگاه مجازی است که درایور آن همراه Windows ارائه می‌شود، بنابراین کاتالوگ چیزی برای آن ندارد. به جای آن از Windows Update استفاده کنید.</value>
+  </data>
 </root>

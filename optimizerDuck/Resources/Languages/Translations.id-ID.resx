@@ -2639,4 +2639,7 @@ Perbarui sekarang untuk menikmati fitur terbaru, peningkatan, dan perbaikan bug.
   <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
     <value>Cari driver perangkat ini di Katalog Microsoft Update</value>
   </data>
+  <data name="Drivers.Action.SearchOnline.Unavailable" xml:space="preserve">
+    <value>Ini adalah perangkat virtual yang driver-nya bawaan Windows, jadi katalog tidak memiliki apa pun untuknya. Gunakan Windows Update sebagai gantinya.</value>
+  </data>
 </root>

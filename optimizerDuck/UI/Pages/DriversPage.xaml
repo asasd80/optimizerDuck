@@ -285,7 +285,19 @@
                                         Cursor="Hand"
                                         Icon="{ui:SymbolIcon Globe24,
                                                              FontSize=16}"
-                                        ToolTip="{ext:Loc Drivers.Action.SearchOnline.Tooltip}" />
+                                        IsEnabled="{Binding CanSearchCatalog}"
+                                        ToolTipService.ShowOnDisabled="True">
+                                        <ui:Button.Style>
+                                            <Style BasedOn="{StaticResource {x:Type ui:Button}}" TargetType="ui:Button">
+                                                <Setter Property="ToolTip" Value="{ext:Loc Drivers.Action.SearchOnline.Tooltip}" />
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding CanSearchCatalog}" Value="False">
+                                                        <Setter Property="ToolTip" Value="{ext:Loc Drivers.Action.SearchOnline.Unavailable}" />
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </ui:Button.Style>
+                                    </ui:Button>
                                 </Grid>
                             </Border>
                         </DataTemplate>
