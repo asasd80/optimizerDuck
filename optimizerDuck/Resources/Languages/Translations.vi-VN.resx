@@ -2511,4 +2511,67 @@ Cập nhật ngay để trải nghiệm các tính năng mới, cải tiến và
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>Chi tiết có trong tệp log.</value>
   </data>
+  <data name="Sidebar.Drivers" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="Drivers.Header.Title" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="Drivers.Header.Description" xml:space="preserve">
+    <value>Tìm kiếm driver thiết bị đã cài đặt và tìm phiên bản mới hơn.</value>
+  </data>
+  <data name="Drivers.Loading" xml:space="preserve">
+    <value>Đang tải các driver đã cài đặt...</value>
+  </data>
+  <data name="Drivers.Loading.Hint" xml:space="preserve">
+    <value>Việc này có thể mất một lúc trong khi ứng dụng truy vấn các thiết bị của bạn.</value>
+  </data>
+  <data name="Drivers.Empty.Title" xml:space="preserve">
+    <value>Không tìm thấy driver</value>
+  </data>
+  <data name="Drivers.Empty.Description" xml:space="preserve">
+    <value>optimizerDuck không thể đọc danh sách driver đã cài đặt. Hãy thử làm mới.</value>
+  </data>
+  <data name="Drivers.Search.Placeholder" xml:space="preserve">
+    <value>Tìm theo thiết bị, nhà cung cấp, phiên bản hoặc ID phần cứng...</value>
+  </data>
+  <data name="Drivers.Search.NoResults" xml:space="preserve">
+    <value>Không có driver nào khớp. Hãy thử từ khóa khác hoặc hiện driver của Microsoft.</value>
+  </data>
+  <data name="Drivers.SortBy.Provider" xml:space="preserve">
+    <value>Nhà cung cấp</value>
+  </data>
+  <data name="Drivers.SortBy.Oldest" xml:space="preserve">
+    <value>Cũ nhất trước</value>
+  </data>
+  <data name="Drivers.HideMicrosoft" xml:space="preserve">
+    <value>Ẩn driver của Microsoft</value>
+  </data>
+  <data name="Drivers.Menu.WindowsUpdate" xml:space="preserve">
+    <value>Kiểm tra Windows Update</value>
+  </data>
+  <data name="Drivers.Menu.DeviceManager" xml:space="preserve">
+    <value>Device Manager</value>
+  </data>
+  <data name="Drivers.Menu.Refresh" xml:space="preserve">
+    <value>Làm mới</value>
+  </data>
+  <data name="Drivers.Count" xml:space="preserve">
+    <value>{0} driver</value>
+  </data>
+  <data name="Drivers.InfoBar.Message" xml:space="preserve">
+    <value>Tìm trực tuyến sẽ tra ID phần cứng của thiết bị trong Microsoft Update Catalog. Để cập nhật đáng tin cậy nhất, hãy ưu tiên driver từ nhà sản xuất PC hoặc thiết bị, hoặc dùng Windows Update.</value>
+  </data>
+  <data name="Drivers.Unsigned" xml:space="preserve">
+    <value>Chưa ký</value>
+  </data>
+  <data name="Drivers.Date" xml:space="preserve">
+    <value>Ngày: {0}</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline" xml:space="preserve">
+    <value>Tìm trực tuyến</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
+    <value>Tìm driver của thiết bị này trong Microsoft Update Catalog</value>
+  </data>
 </root>

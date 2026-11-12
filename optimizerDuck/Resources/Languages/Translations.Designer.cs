@@ -7385,5 +7385,194 @@ namespace optimizerDuck.Resources.Languages {
                 return ResourceManager.GetString("TitleBar.Support", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Drivers.
+        /// </summary>
+        internal static string Sidebar_Drivers {
+            get {
+                return ResourceManager.GetString("Sidebar.Drivers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Drivers.
+        /// </summary>
+        internal static string Drivers_Header_Title {
+            get {
+                return ResourceManager.GetString("Drivers.Header.Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search installed device drivers and find newer versions..
+        /// </summary>
+        internal static string Drivers_Header_Description {
+            get {
+                return ResourceManager.GetString("Drivers.Header.Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Loading installed drivers....
+        /// </summary>
+        internal static string Drivers_Loading {
+            get {
+                return ResourceManager.GetString("Drivers.Loading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This may take a moment while the application queries your devices..
+        /// </summary>
+        internal static string Drivers_Loading_Hint {
+            get {
+                return ResourceManager.GetString("Drivers.Loading.Hint", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No drivers found.
+        /// </summary>
+        internal static string Drivers_Empty_Title {
+            get {
+                return ResourceManager.GetString("Drivers.Empty.Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to optimizerDuck could not read the list of installed drivers. Try refreshing..
+        /// </summary>
+        internal static string Drivers_Empty_Description {
+            get {
+                return ResourceManager.GetString("Drivers.Empty.Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search by device, provider, version or hardware ID....
+        /// </summary>
+        internal static string Drivers_Search_Placeholder {
+            get {
+                return ResourceManager.GetString("Drivers.Search.Placeholder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No drivers match your search. Try a different term or show Microsoft drivers..
+        /// </summary>
+        internal static string Drivers_Search_NoResults {
+            get {
+                return ResourceManager.GetString("Drivers.Search.NoResults", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Provider.
+        /// </summary>
+        internal static string Drivers_SortBy_Provider {
+            get {
+                return ResourceManager.GetString("Drivers.SortBy.Provider", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Oldest first.
+        /// </summary>
+        internal static string Drivers_SortBy_Oldest {
+            get {
+                return ResourceManager.GetString("Drivers.SortBy.Oldest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hide Microsoft drivers.
+        /// </summary>
+        internal static string Drivers_HideMicrosoft {
+            get {
+                return ResourceManager.GetString("Drivers.HideMicrosoft", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Check Windows Update.
+        /// </summary>
+        internal static string Drivers_Menu_WindowsUpdate {
+            get {
+                return ResourceManager.GetString("Drivers.Menu.WindowsUpdate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Device Manager.
+        /// </summary>
+        internal static string Drivers_Menu_DeviceManager {
+            get {
+                return ResourceManager.GetString("Drivers.Menu.DeviceManager", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Refresh.
+        /// </summary>
+        internal static string Drivers_Menu_Refresh {
+            get {
+                return ResourceManager.GetString("Drivers.Menu.Refresh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {0} drivers.
+        /// </summary>
+        internal static string Drivers_Count {
+            get {
+                return ResourceManager.GetString("Drivers.Count", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search online looks up the device's hardware ID in the Microsoft Update Catalog. For the most reliable updates, prefer drivers from your PC or device manufacturer, or use Windows Update..
+        /// </summary>
+        internal static string Drivers_InfoBar_Message {
+            get {
+                return ResourceManager.GetString("Drivers.InfoBar.Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unsigned.
+        /// </summary>
+        internal static string Drivers_Unsigned {
+            get {
+                return ResourceManager.GetString("Drivers.Unsigned", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date: {0}.
+        /// </summary>
+        internal static string Drivers_Date {
+            get {
+                return ResourceManager.GetString("Drivers.Date", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search online.
+        /// </summary>
+        internal static string Drivers_Action_SearchOnline {
+            get {
+                return ResourceManager.GetString("Drivers.Action.SearchOnline", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search the Microsoft Update Catalog for this device's driver.
+        /// </summary>
+        internal static string Drivers_Action_SearchOnline_Tooltip {
+            get {
+                return ResourceManager.GetString("Drivers.Action.SearchOnline.Tooltip", resourceCulture);
+            }
+        }
     }
 }

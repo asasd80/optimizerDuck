@@ -2576,4 +2576,67 @@
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>הפרטים נמצאים בקובץ היומן.</value>
   </data>
+  <data name="Sidebar.Drivers" xml:space="preserve">
+    <value>מנהלי התקנים</value>
+  </data>
+  <data name="Drivers.Header.Title" xml:space="preserve">
+    <value>מנהלי התקנים</value>
+  </data>
+  <data name="Drivers.Header.Description" xml:space="preserve">
+    <value>חפש מנהלי התקנים מותקנים ומצא גרסאות חדשות יותר.</value>
+  </data>
+  <data name="Drivers.Loading" xml:space="preserve">
+    <value>טוען מנהלי התקנים מותקנים...</value>
+  </data>
+  <data name="Drivers.Loading.Hint" xml:space="preserve">
+    <value>פעולה זו עשויה להימשך רגע בזמן שהיישום בודק את ההתקנים שלך.</value>
+  </data>
+  <data name="Drivers.Empty.Title" xml:space="preserve">
+    <value>לא נמצאו מנהלי התקנים</value>
+  </data>
+  <data name="Drivers.Empty.Description" xml:space="preserve">
+    <value>optimizerDuck לא הצליח לקרוא את רשימת מנהלי ההתקנים המותקנים. נסה לרענן.</value>
+  </data>
+  <data name="Drivers.Search.Placeholder" xml:space="preserve">
+    <value>חפש לפי התקן, ספק, גרסה או מזהה חומרה...</value>
+  </data>
+  <data name="Drivers.Search.NoResults" xml:space="preserve">
+    <value>אין מנהלי התקנים התואמים לחיפוש. נסה מונח אחר או הצג מנהלי התקנים של Microsoft.</value>
+  </data>
+  <data name="Drivers.SortBy.Provider" xml:space="preserve">
+    <value>ספק</value>
+  </data>
+  <data name="Drivers.SortBy.Oldest" xml:space="preserve">
+    <value>הישנים ביותר תחילה</value>
+  </data>
+  <data name="Drivers.HideMicrosoft" xml:space="preserve">
+    <value>הסתר מנהלי התקנים של Microsoft</value>
+  </data>
+  <data name="Drivers.Menu.WindowsUpdate" xml:space="preserve">
+    <value>בדוק ב-Windows Update</value>
+  </data>
+  <data name="Drivers.Menu.DeviceManager" xml:space="preserve">
+    <value>מנהל ההתקנים</value>
+  </data>
+  <data name="Drivers.Menu.Refresh" xml:space="preserve">
+    <value>רענן</value>
+  </data>
+  <data name="Drivers.Count" xml:space="preserve">
+    <value>{0} מנהלי התקנים</value>
+  </data>
+  <data name="Drivers.InfoBar.Message" xml:space="preserve">
+    <value>חיפוש מקוון מחפש את מזהה החומרה של ההתקן בקטלוג Microsoft Update. לעדכונים אמינים יותר, העדף מנהלי התקנים מיצרן המחשב או ההתקן, או השתמש ב-Windows Update.</value>
+  </data>
+  <data name="Drivers.Unsigned" xml:space="preserve">
+    <value>לא חתום</value>
+  </data>
+  <data name="Drivers.Date" xml:space="preserve">
+    <value>תאריך: {0}</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline" xml:space="preserve">
+    <value>חיפוש מקוון</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
+    <value>חפש את מנהל ההתקן של התקן זה בקטלוג Microsoft Update</value>
+  </data>
 </root>

@@ -2519,4 +2519,67 @@ Mettez à jour pour profiter des dernières fonctionnalités, améliorations et 
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>Les détails se trouvent dans le fichier journal.</value>
   </data>
+  <data name="Sidebar.Drivers" xml:space="preserve">
+    <value>Pilotes</value>
+  </data>
+  <data name="Drivers.Header.Title" xml:space="preserve">
+    <value>Pilotes</value>
+  </data>
+  <data name="Drivers.Header.Description" xml:space="preserve">
+    <value>Recherchez les pilotes de périphériques installés et trouvez des versions plus récentes.</value>
+  </data>
+  <data name="Drivers.Loading" xml:space="preserve">
+    <value>Chargement des pilotes installés...</value>
+  </data>
+  <data name="Drivers.Loading.Hint" xml:space="preserve">
+    <value>Cela peut prendre un moment pendant que l'application interroge vos périphériques.</value>
+  </data>
+  <data name="Drivers.Empty.Title" xml:space="preserve">
+    <value>Aucun pilote trouvé</value>
+  </data>
+  <data name="Drivers.Empty.Description" xml:space="preserve">
+    <value>optimizerDuck n'a pas pu lire la liste des pilotes installés. Essayez d'actualiser.</value>
+  </data>
+  <data name="Drivers.Search.Placeholder" xml:space="preserve">
+    <value>Rechercher par périphérique, fournisseur, version ou ID matériel...</value>
+  </data>
+  <data name="Drivers.Search.NoResults" xml:space="preserve">
+    <value>Aucun pilote ne correspond à votre recherche. Essayez un autre terme ou affichez les pilotes Microsoft.</value>
+  </data>
+  <data name="Drivers.SortBy.Provider" xml:space="preserve">
+    <value>Fournisseur</value>
+  </data>
+  <data name="Drivers.SortBy.Oldest" xml:space="preserve">
+    <value>Les plus anciens d'abord</value>
+  </data>
+  <data name="Drivers.HideMicrosoft" xml:space="preserve">
+    <value>Masquer les pilotes Microsoft</value>
+  </data>
+  <data name="Drivers.Menu.WindowsUpdate" xml:space="preserve">
+    <value>Vérifier Windows Update</value>
+  </data>
+  <data name="Drivers.Menu.DeviceManager" xml:space="preserve">
+    <value>Gestionnaire de périphériques</value>
+  </data>
+  <data name="Drivers.Menu.Refresh" xml:space="preserve">
+    <value>Actualiser</value>
+  </data>
+  <data name="Drivers.Count" xml:space="preserve">
+    <value>{0} pilotes</value>
+  </data>
+  <data name="Drivers.InfoBar.Message" xml:space="preserve">
+    <value>Rechercher en ligne cherche l'ID matériel du périphérique dans le catalogue Microsoft Update. Pour des mises à jour plus fiables, privilégiez les pilotes du fabricant de votre PC ou périphérique, ou Windows Update.</value>
+  </data>
+  <data name="Drivers.Unsigned" xml:space="preserve">
+    <value>Non signé</value>
+  </data>
+  <data name="Drivers.Date" xml:space="preserve">
+    <value>Date : {0}</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline" xml:space="preserve">
+    <value>Rechercher en ligne</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
+    <value>Rechercher le pilote de ce périphérique dans le catalogue Microsoft Update</value>
+  </data>
 </root>

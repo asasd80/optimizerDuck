@@ -2519,4 +2519,67 @@ Zaktualizuj teraz, aby korzystać z najnowszych funkcji, ulepszeń i poprawek b�
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>Szczegóły znajdują się w pliku dziennika.</value>
   </data>
+  <data name="Sidebar.Drivers" xml:space="preserve">
+    <value>Sterowniki</value>
+  </data>
+  <data name="Drivers.Header.Title" xml:space="preserve">
+    <value>Sterowniki</value>
+  </data>
+  <data name="Drivers.Header.Description" xml:space="preserve">
+    <value>Przeszukuj zainstalowane sterowniki urządzeń i znajduj nowsze wersje.</value>
+  </data>
+  <data name="Drivers.Loading" xml:space="preserve">
+    <value>Wczytywanie zainstalowanych sterowników...</value>
+  </data>
+  <data name="Drivers.Loading.Hint" xml:space="preserve">
+    <value>Może to chwilę potrwać, gdy aplikacja odpytuje Twoje urządzenia.</value>
+  </data>
+  <data name="Drivers.Empty.Title" xml:space="preserve">
+    <value>Nie znaleziono sterowników</value>
+  </data>
+  <data name="Drivers.Empty.Description" xml:space="preserve">
+    <value>optimizerDuck nie mógł odczytać listy zainstalowanych sterowników. Spróbuj odświeżyć.</value>
+  </data>
+  <data name="Drivers.Search.Placeholder" xml:space="preserve">
+    <value>Szukaj według urządzenia, dostawcy, wersji lub identyfikatora sprzętu...</value>
+  </data>
+  <data name="Drivers.Search.NoResults" xml:space="preserve">
+    <value>Żaden sterownik nie pasuje do wyszukiwania. Spróbuj innej frazy lub pokaż sterowniki Microsoft.</value>
+  </data>
+  <data name="Drivers.SortBy.Provider" xml:space="preserve">
+    <value>Dostawca</value>
+  </data>
+  <data name="Drivers.SortBy.Oldest" xml:space="preserve">
+    <value>Najstarsze najpierw</value>
+  </data>
+  <data name="Drivers.HideMicrosoft" xml:space="preserve">
+    <value>Ukryj sterowniki Microsoft</value>
+  </data>
+  <data name="Drivers.Menu.WindowsUpdate" xml:space="preserve">
+    <value>Sprawdź Windows Update</value>
+  </data>
+  <data name="Drivers.Menu.DeviceManager" xml:space="preserve">
+    <value>Menedżer urządzeń</value>
+  </data>
+  <data name="Drivers.Menu.Refresh" xml:space="preserve">
+    <value>Odśwież</value>
+  </data>
+  <data name="Drivers.Count" xml:space="preserve">
+    <value>Sterowniki: {0}</value>
+  </data>
+  <data name="Drivers.InfoBar.Message" xml:space="preserve">
+    <value>Wyszukiwanie online szuka identyfikatora sprzętu urządzenia w Wykazie usługi Microsoft Update. Najbardziej niezawodne są sterowniki od producenta komputera lub urządzenia albo z Windows Update.</value>
+  </data>
+  <data name="Drivers.Unsigned" xml:space="preserve">
+    <value>Niepodpisany</value>
+  </data>
+  <data name="Drivers.Date" xml:space="preserve">
+    <value>Data: {0}</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline" xml:space="preserve">
+    <value>Szukaj online</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
+    <value>Wyszukaj sterownik tego urządzenia w Wykazie usługi Microsoft Update</value>
+  </data>
 </root>

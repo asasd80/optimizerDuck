@@ -2510,4 +2510,67 @@
   <data name="Error.Unhandled.LogHint" xml:space="preserve">
     <value>자세한 내용은 로그 파일에 있습니다.</value>
   </data>
+  <data name="Sidebar.Drivers" xml:space="preserve">
+    <value>드라이버</value>
+  </data>
+  <data name="Drivers.Header.Title" xml:space="preserve">
+    <value>드라이버</value>
+  </data>
+  <data name="Drivers.Header.Description" xml:space="preserve">
+    <value>설치된 장치 드라이버를 검색하고 최신 버전을 찾습니다.</value>
+  </data>
+  <data name="Drivers.Loading" xml:space="preserve">
+    <value>설치된 드라이버를 불러오는 중...</value>
+  </data>
+  <data name="Drivers.Loading.Hint" xml:space="preserve">
+    <value>앱이 장치를 조회하는 동안 잠시 시간이 걸릴 수 있습니다.</value>
+  </data>
+  <data name="Drivers.Empty.Title" xml:space="preserve">
+    <value>드라이버를 찾을 수 없음</value>
+  </data>
+  <data name="Drivers.Empty.Description" xml:space="preserve">
+    <value>optimizerDuck이 설치된 드라이버 목록을 읽지 못했습니다. 새로 고침해 보세요.</value>
+  </data>
+  <data name="Drivers.Search.Placeholder" xml:space="preserve">
+    <value>장치, 공급자, 버전 또는 하드웨어 ID로 검색...</value>
+  </data>
+  <data name="Drivers.Search.NoResults" xml:space="preserve">
+    <value>검색과 일치하는 드라이버가 없습니다. 다른 검색어를 사용하거나 Microsoft 드라이버를 표시하세요.</value>
+  </data>
+  <data name="Drivers.SortBy.Provider" xml:space="preserve">
+    <value>공급자</value>
+  </data>
+  <data name="Drivers.SortBy.Oldest" xml:space="preserve">
+    <value>오래된 순</value>
+  </data>
+  <data name="Drivers.HideMicrosoft" xml:space="preserve">
+    <value>Microsoft 드라이버 숨기기</value>
+  </data>
+  <data name="Drivers.Menu.WindowsUpdate" xml:space="preserve">
+    <value>Windows Update 확인</value>
+  </data>
+  <data name="Drivers.Menu.DeviceManager" xml:space="preserve">
+    <value>장치 관리자</value>
+  </data>
+  <data name="Drivers.Menu.Refresh" xml:space="preserve">
+    <value>새로 고침</value>
+  </data>
+  <data name="Drivers.Count" xml:space="preserve">
+    <value>드라이버 {0}개</value>
+  </data>
+  <data name="Drivers.InfoBar.Message" xml:space="preserve">
+    <value>온라인 검색은 Microsoft Update 카탈로그에서 장치의 하드웨어 ID를 찾습니다. 가장 안정적인 업데이트를 위해 PC 또는 장치 제조업체의 드라이버나 Windows Update를 우선 사용하세요.</value>
+  </data>
+  <data name="Drivers.Unsigned" xml:space="preserve">
+    <value>서명되지 않음</value>
+  </data>
+  <data name="Drivers.Date" xml:space="preserve">
+    <value>날짜: {0}</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline" xml:space="preserve">
+    <value>온라인 검색</value>
+  </data>
+  <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
+    <value>Microsoft Update 카탈로그에서 이 장치의 드라이버 검색</value>
+  </data>
 </root>
