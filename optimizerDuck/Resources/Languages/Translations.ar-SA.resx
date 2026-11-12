@@ -113,7 +113,7 @@
         </value>
   </resheader>
   <data name="Bloatware.Empty.Description" xml:space="preserve">
-    <value>لم يعثر ‎optimizerDuck‎ على أي حزم ‎AppX‎ قابلة للإزالة. فارغة تمامًا كالفراغ...</value>
+    <value>لم يعثر ‎optimizerDuck‎ على أي حزم ‎AppX‎ قابلة للإزالة. القائمة فارغة تمامًا...</value>
   </data>
   <data name="Bloatware.Empty.Title" xml:space="preserve">
     <value>لا توجد تطبيقات غير ضرورية ‎¯\_(ツ)_/¯‎</value>
@@ -263,7 +263,7 @@
     <value>الحالة</value>
   </data>
   <data name="Common.SortBy.RiskAndStatus" xml:space="preserve">
-    <value>الخطورة &amp; الحالة</value>
+    <value>الخطورة والحالة</value>
   </data>
   <data name="Common.Toggle.Off" xml:space="preserve">
     <value>إيقاف</value>
@@ -338,7 +338,7 @@
     <value>التسجيل في الخلفية (DVR)</value>
   </data>
   <data name="Customize.Gaming.BackgroundRecording.Recommendation.Reason" xml:space="preserve">
-    <value>تعطيل التسجيل في الخلفية يمنع ‎DVR‎ من التقاط اللعب بصمت، ما يوفر موارد المعالج ودورات الكتابة على القرص.</value>
+    <value>يلتقط التسجيل في الخلفية اللعب بشكل مستمر، ما قد يستهلك موارد CPU ويزيد الكتابة على القرص.</value>
   </data>
   <data name="Customize.Gaming.Description" xml:space="preserve">
     <value>خيارات الرسومات والإدخال والتسجيل أثناء اللعب.</value>
@@ -359,7 +359,7 @@
     <value>‎Xbox Game Bar‎</value>
   </data>
   <data name="Customize.Gaming.GameBar.Recommendation.Reason" xml:space="preserve">
-    <value>تعطيل ‎Game Bar‎ يحرر موارد النظام ويمنع الطبقات العاملة في الخلفية من التداخل مع ألعابك.</value>
+    <value>يوفر Xbox Game Bar تراكبات وأدوات ألعاب تعمل في الخلفية وقد تستهلك موارد النظام.</value>
   </data>
   <data name="Customize.Gaming.GameMode.Description" xml:space="preserve">
     <value>يمنح الألعاب أولوية في موارد النظام ويغيّر سلوك Windows Update أثناء اللعب.</value>
@@ -368,16 +368,16 @@
     <value>وضع الألعاب</value>
   </data>
   <data name="Customize.Gaming.GameMode.Recommendation.Reason" xml:space="preserve">
-    <value>يعطي وضع الألعاب الأولوية تلقائيًا لعمليات اللعبة ويؤجل إشعارات تحديثات ويندوز أثناء اللعب للحصول على أداء أكثر سلاسة.</value>
+    <value>يعطي وضع الألعاب الأولوية تلقائيًا لعمليات اللعبة ويؤجل إشعارات Windows Update أثناء اللعب للحصول على أداء أكثر سلاسة.</value>
   </data>
   <data name="Customize.Gaming.HardwareAcceleratedGpuScheduling.Description" xml:space="preserve">
-    <value>يتيح لمعالج الرسومات تنفيذ المزيد من أعمال جدولة ذاكرة الفيديو، ويتطلب برنامج تشغيل متوافقًا.</value>
+    <value>يتيح لـ GPU تولّي المزيد من أعمال جدولة ذاكرة الفيديو، ويتطلب تعريف رسوميات متوافقًا.</value>
   </data>
   <data name="Customize.Gaming.HardwareAcceleratedGpuScheduling.Name" xml:space="preserve">
-    <value>جدولة معالج الرسومات المُسرَّعة بالعتاد</value>
+    <value>جدولة GPU المُسرَّعة بالعتاد</value>
   </data>
   <data name="Customize.Gaming.HardwareAcceleratedGpuScheduling.Recommendation.Reason" xml:space="preserve">
-    <value>تنقل جدولة معالج الرسومات إدارة الإطارات من المعالج إلى كرت الشاشة، ما يقلل زمن استجابة العرض ويحسّن انتظام الإطارات.</value>
+    <value>تنقل جدولة GPU إدارة الإطارات من CPU إلى GPU، ما يقلل زمن استجابة العرض ويحسّن انتظام الإطارات.</value>
   </data>
   <data name="Customize.Gaming.MouseAcceleration.Description" xml:space="preserve">
     <value>يضبط استجابة حركة المؤشر وفق سرعة تحريك الفأرة.</value>
@@ -386,7 +386,7 @@
     <value>تسريع الفأرة</value>
   </data>
   <data name="Customize.Gaming.MouseAcceleration.Recommendation.Reason" xml:space="preserve">
-    <value>تعطيل التسريع يمنحك إدخالًا خطيًا خامًا للفأرة، ما يحسّن دقة التصويب وثبات الذاكرة العضلية.</value>
+    <value>يغيّر تسريع الفأرة حركة المؤشر حسب سرعة التحريك، بينما يحسّن الإدخال الخطي الخام ثبات التصويب.</value>
   </data>
   <data name="Customize.Gaming.Name" xml:space="preserve">
     <value>الألعاب</value>
@@ -416,7 +416,7 @@
     <value>قائمة السياق الكلاسيكية</value>
   </data>
   <data name="Customize.Preferences.ClassicContextMenu.Recommendation.Reason" xml:space="preserve">
-    <value>تعرض القائمة الكلاسيكية كل الخيارات دفعةً واحدة دون النقرة الإضافية اللازمة لتوسيع قائمة ويندوز 11 المختصرة.</value>
+    <value>تعرض القائمة الكلاسيكية كل الخيارات دفعةً واحدة دون النقرة الإضافية اللازمة لتوسيع قائمة Windows 11 المختصرة.</value>
   </data>
   <data name="Customize.Preferences.ClipboardHistory.Description" xml:space="preserve">
     <value>يحفظ العناصر المنسوخة لتتمكن من تصفحها باستخدام Win+V.</value>
@@ -455,7 +455,7 @@
     <value>إشعارات المزامنة في المستكشف</value>
   </data>
   <data name="Customize.Preferences.ExplorerSyncNotifications.Recommendation.Reason" xml:space="preserve">
-    <value>تعطيل إشعارات المزامنة يوقف نوافذ ‎OneDrive‎ المنبثقة عن مقاطعة تصفح الملفات.</value>
+    <value>تتحكم إشعارات المزامنة في النوافذ المنبثقة لـ OneDrive والمزامنة السحابية أثناء تصفح الملفات.</value>
   </data>
   <data name="Customize.Preferences.LaunchToThisPc.Description" xml:space="preserve">
     <value>اختر ما إذا كان مستكشف الملفات سيفتح على «هذا الكمبيوتر» أو «الوصول السريع».</value>
@@ -509,7 +509,7 @@
     <value>الملفات المخفية</value>
   </data>
   <data name="Customize.Preferences.ShowHiddenFiles.Recommendation.Reason" xml:space="preserve">
-    <value>تحتوي الملفات المخفية على بيانات نظام وإعدادات قد تحتاج إدارتها؛ إظهارها يمنحك رؤية كاملة لنظامك.</value>
+    <value>تحتوي الملفات المخفية على بيانات النظام والإعدادات التي قد تحتاجها للإدارة واستكشاف الأخطاء وإصلاحها.</value>
   </data>
   <data name="Customize.Preferences.ShowSecondsInSystemClock.Description" xml:space="preserve">
     <value>يعرض الثواني في ساعة شريط المهام.</value>
@@ -530,7 +530,7 @@
     <value>اقتراحات النظام</value>
   </data>
   <data name="Customize.Preferences.SystemSuggestions.Recommendation.Reason" xml:space="preserve">
-    <value>إيقاف اقتراحات النظام يمنع ويندوز من ترشيح تطبيقات وإعدادات لم تطلبها.</value>
+    <value>تتحكم اقتراحات النظام في ترشيحات Windows للتطبيقات والإعدادات.</value>
   </data>
   <data name="Customize.Preferences.TaskbarAlignment.Description" xml:space="preserve">
     <value>اختر ما إذا كانت أيقونات شريط المهام ستظهر في الوسط أو بمحاذاة اليسار.</value>
@@ -572,7 +572,7 @@
     <value>الأدوات المصغّرة</value>
   </data>
   <data name="Customize.Preferences.TaskbarWidgets.Recommendation.Reason" xml:space="preserve">
-    <value>إيقاف الأدوات المصغّرة يزيل خدمة الويب التي تجلب الأخبار والطقس في الخلفية، ما يقلل استهلاك الشبكة والذاكرة أثناء الخمول.</value>
+    <value>قد تجلب الأدوات المصغّرة الأخبار والطقس في الخلفية، ما قد يزيد استهلاك الشبكة والذاكرة أثناء الخمول.</value>
   </data>
   <data name="Customize.Preferences.ToastNotifications.Description" xml:space="preserve">
     <value>يتحكم في إشعارات سطح المكتب، بما في ذلك التنبيهات التي تظهر على شاشة القفل.</value>
@@ -659,7 +659,7 @@
     <value>مستودع GitHub</value>
   </data>
   <data name="Dashboard.Actions.SupportMe.Description" xml:space="preserve">
-    <value>ضع نجمة للمستودع على GitHub، أو شاركه مع أصدقائك، أو تبرّع - كل مساهمة تساعد المشروع على النمو!</value>
+    <value>ضع نجمة للمستودع على GitHub، أو شاركه مع أصدقائك، أو تبرّع. كل مساهمة تساعد المشروع على النمو!</value>
   </data>
   <data name="Dashboard.Actions.SupportMe.Title" xml:space="preserve">
     <value>ساهم</value>
@@ -680,7 +680,7 @@
     <value>{0} مسار تنفيذ</value>
   </data>
   <data name="Dashboard.SystemInfo.Gpu.More" xml:space="preserve">
-    <value>‎+ {0} معالج رسومات إضافي</value>
+    <value>‎+ {0} GPU إضافي</value>
   </data>
   <data name="Dashboard.SystemInfo.Loading" xml:space="preserve">
     <value>جارٍ جلب معلومات النظام...</value>
@@ -740,13 +740,13 @@
     <value>{0} MHz</value>
   </data>
   <data name="Dashboard.SystemInfo.Gpu.Driver" xml:space="preserve">
-    <value>برنامج التشغيل {0}</value>
+    <value>التعريف {0}</value>
   </data>
   <data name="Dashboard.SystemInfo.Ram.Total" xml:space="preserve">
-    <value>{0} غيغابايت RAM</value>
+    <value>{0} GB RAM</value>
   </data>
   <data name="Dashboard.SystemInfo.Gpu.Memory" xml:space="preserve">
-    <value>{0} غيغابايت</value>
+    <value>{0} GB</value>
   </data>
   <data name="Dashboard.UpdateInfoBar.Message" xml:space="preserve">
     <value>الإصدار optimizerDuck (v{0}) متوفر!
@@ -822,13 +822,13 @@
     <value>تقارير الأخطاء</value>
   </data>
   <data name="DiskCleanup.Item.ErrorReports.Description" xml:space="preserve">
-    <value>تقارير أخطاء ويندوز وملفات تفريغ الأعطال</value>
+    <value>تقارير أخطاء Windows وملفات تفريغ الأعطال</value>
   </data>
   <data name="DiskCleanup.Item.OldWindowsInstallation" xml:space="preserve">
-    <value>تثبيت ويندوز السابق (‎Windows.old‎)</value>
+    <value>تثبيت Windows السابق (‎Windows.old‎)</value>
   </data>
   <data name="DiskCleanup.Item.OldWindowsInstallation.Description" xml:space="preserve">
-    <value>ملفات تثبيت ويندوز السابقة المحفوظة بعد تحديث أو ترقية كبرى</value>
+    <value>ملفات تثبيت Windows السابقة المحفوظة بعد تحديث أو ترقية كبرى</value>
   </data>
   <data name="DiskCleanup.Item.Prefetch" xml:space="preserve">
     <value>ملفات التحميل المسبق (Prefetch)</value>
@@ -846,7 +846,7 @@
     <value>ملفات النظام المؤقتة</value>
   </data>
   <data name="DiskCleanup.Item.SystemTemp.Description" xml:space="preserve">
-    <value>الملفات المؤقتة الخاصة بنظام ويندوز</value>
+    <value>الملفات المؤقتة الخاصة بنظام Windows</value>
   </data>
   <data name="DiskCleanup.Item.TempFiles" xml:space="preserve">
     <value>الملفات المؤقتة</value>
@@ -861,10 +861,10 @@
     <value>صور مصغّرة مخزّنة مؤقتًا لمعاينات الملفات في مستكشف الملفات</value>
   </data>
   <data name="DiskCleanup.Item.WindowsUpdate" xml:space="preserve">
-    <value>ذاكرة تحديثات ويندوز</value>
+    <value>ذاكرة Windows Update المؤقتة</value>
   </data>
   <data name="DiskCleanup.Item.WindowsUpdate.Description" xml:space="preserve">
-    <value>ملفات تحديثات ويندوز المُنزَّلة التي لم تعد هناك حاجة إليها</value>
+    <value>ملفات Windows Update المُنزَّلة التي لم تعد هناك حاجة إليها</value>
   </data>
   <data name="DiskCleanup.ItemsAndFilesSelected" xml:space="preserve">
     <value>محدد {0}‎ • {1} عنصر • {2} ملف</value>
@@ -876,7 +876,7 @@
     <value>إجمالي المساحة القابلة للاستعادة</value>
   </data>
   <data name="LegalDialog.Intro.Title" xml:space="preserve">
-    <value>مرحباً بك في optimizerDuck!</value>
+    <value>مرحبًا بك في optimizerDuck!</value>
   </data>
   <data name="LegalDialog.Intro.Description" xml:space="preserve">
     <value>اختر لغتك والمظهر الخاص بك، وخذ لحظة لمراجعة شروط الخدمة وسياسة الخصوصية وإخلاء المسؤولية، ثم ستكون جاهزًا للانطلاق.</value>
@@ -1044,10 +1044,10 @@
     <value>يُرجى الانتظار...</value>
   </data>
   <data name="Optimizer.AI.DisableRecall.ShortDescription" xml:space="preserve">
-    <value>يعطل ميزة الذكاء الاصطناعي Windows Recall التي تلتقط لقطات شاشة وتفهرسها. كما يزيل مكوّن Recall ويحذف اللقطات المحفوظة مسبقًا؛ يلزم إعادة تشغيل الجهاز حتى يسري التغيير.</value>
+    <value>يعطّل ميزة Windows Recall التي تلتقط لقطات من شاشتك وتفهرسها. كما يزيل مكوّن Recall ويحذف اللقطات المحفوظة سابقًا على Windows 11 24H2 وما بعده (Build 26100.3915+)، ويلزم إعادة تشغيل الجهاز حتى يسري التغيير.</value>
   </data>
   <data name="Optimizer.BloatwareAndServices" xml:space="preserve">
-    <value>التطبيقات والخدمات</value>
+    <value>التطبيقات غير الضرورية والخدمات</value>
   </data>
   <data name="Optimizer.BloatwareAndServices.ConfigureServices.Name" xml:space="preserve">
     <value>تحسين خدمات النظام</value>
@@ -1056,64 +1056,64 @@
     <value>جارٍ ضبط نوع بدء التشغيل لـ {0} إلى {1}...</value>
   </data>
   <data name="Optimizer.BloatwareAndServices.ConfigureServices.ShortDescription" xml:space="preserve">
-    <value>يضبط الخدمات غير الأساسية العاملة في الخلفية لتحرير الموارد مع الحفاظ على جميع وظائف ويندوز الضرورية.</value>
+    <value>يضبط الخدمات غير الأساسية العاملة في الخلفية لتحرير الموارد مع الحفاظ على جميع وظائف Windows الضرورية.</value>
   </data>
   <data name="Optimizer.BloatwareAndServices.DisablePreinstalledApps.Name" xml:space="preserve">
     <value>منع التطبيقات المرفقة مسبقًا</value>
   </data>
   <data name="Optimizer.BloatwareAndServices.DisablePreinstalledApps.ShortDescription" xml:space="preserve">
-    <value>يمنع ويندوز من إعادة تثبيت تطبيقات الطرف الثالث غير المرغوبة والبرامج المروَّجة تلقائيًا.</value>
+    <value>يمنع Windows من إعادة تثبيت تطبيقات الطرف الثالث غير المرغوبة والبرامج المروَّجة تلقائيًا.</value>
   </data>
   <data name="Optimizer.Gpu" xml:space="preserve">
-    <value>معالج الرسومات</value>
+    <value>GPU</value>
   </data>
   <data name="Optimizer.Gpu.AmdDisableAspm.Name" xml:space="preserve">
-    <value>تعطيل ‎ASPM‎ لكروت ‎AMD‎</value>
+    <value>تعطيل ‎ASPM‎ في GPU من ‎AMD‎</value>
   </data>
   <data name="Optimizer.Gpu.AmdDisableAspm.ShortDescription" xml:space="preserve">
-    <value>يضبط ‎EnableAspmL0s=0, EnableAspmL1=0‎ لتعطيل إدارة طاقة الحالة النشطة (ASPM) على كروت ‎AMD‎، ما يقلل زمن استجابة ناقل ‎PCIe‎. يزيد استهلاك الطاقة في المنفذ.</value>
+    <value>يضبط ‎EnableAspmL0s=0, EnableAspmL1=0‎ لتعطيل إدارة طاقة الحالة النشطة (ASPM) في GPU من ‎AMD‎، ما يقلل زمن استجابة ناقل ‎PCIe‎. يزيد استهلاك الطاقة في المنفذ.</value>
   </data>
   <data name="Optimizer.Gpu.AmdDisablePowerGating.Name" xml:space="preserve">
-    <value>تعطيل ‎Power Gating‎ لكروت ‎AMD‎</value>
+    <value>تعطيل ‎Power Gating‎ في GPU من ‎AMD‎</value>
   </data>
   <data name="Optimizer.Gpu.AmdDisablePowerGating.ShortDescription" xml:space="preserve">
-    <value>يضبط ‎DisablePowerGating=1, PP_GPUPowerDownEnabled=0, DisableDynamicPstate=1‎ لمنع انتقالات حالة الطاقة في كروت ‎AMD‎. يحافظ على ترددات ثابتة مقابل استهلاك أعلى في الخمول.</value>
+    <value>يضبط ‎DisablePowerGating=1, PP_GPUPowerDownEnabled=0, DisableDynamicPstate=1‎ لمنع انتقالات حالة الطاقة في GPU من ‎AMD‎. يحافظ على ترددات ثابتة مقابل استهلاك أعلى في الخمول.</value>
   </data>
   <data name="Optimizer.Gpu.AmdDisableUlps.Name" xml:space="preserve">
-    <value>تعطيل ‎ULPS‎ لكروت ‎AMD‎</value>
+    <value>تعطيل ‎ULPS‎ في GPU من ‎AMD‎</value>
   </data>
   <data name="Optimizer.Gpu.AmdDisableUlps.ShortDescription" xml:space="preserve">
-    <value>يضبط ‎EnableULPS=0‎ في ريجستري كرت ‎AMD‎ لمنع تأخير الاستيقاظ من حالة الطاقة فائقة الانخفاض (ULPS) ومشاكل الشاشات المتعددة. يقلل توفير الطاقة أثناء الخمول.</value>
+    <value>يضبط ‎EnableULPS=0‎ في Registry الخاص بـ GPU من ‎AMD‎ لمنع تأخير الاستيقاظ من حالة الطاقة فائقة الانخفاض (ULPS) ومشاكل الشاشات المتعددة. يقلل توفير الطاقة أثناء الخمول.</value>
   </data>
   <data name="Optimizer.Gpu.AmdDisableVideoClockGating.Name" xml:space="preserve">
-    <value>تعطيل ‎Video Clock Gating‎ لكروت ‎AMD‎</value>
+    <value>تعطيل ‎Video Clock Gating‎ في GPU من ‎AMD‎</value>
   </data>
   <data name="Optimizer.Gpu.AmdDisableVideoClockGating.ShortDescription" xml:space="preserve">
     <value>يضبط ‎DisableVCEPowerGating=1, DisableVceClockGating=1, EnableUvdClockGating=0‎ لمحركات الفيديو في ‎AMD‎ (‎VCE/UVD‎) لتحسين استقرار الترميز وفك الترميز. يزيد استهلاك الطاقة أثناء تشغيل الفيديو.</value>
   </data>
   <data name="Optimizer.Gpu.IntelDisableAdaptiveVsync.Name" xml:space="preserve">
-    <value>تعطيل ‎Adaptive V-Sync‎ لكروت ‎Intel‎</value>
+    <value>تعطيل ‎Adaptive V-Sync‎ في GPU من ‎Intel‎</value>
   </data>
   <data name="Optimizer.Gpu.IntelDisableAdaptiveVsync.ShortDescription" xml:space="preserve">
     <value>يضبط ‎AdaptiveVsyncEnable=0‎ لتعطيل التزامن الرأسي التكيّفي في ‎Intel‎ الذي يتغيّر حسب معدل الإطارات، ويستخدم تزامنًا ثابتًا بدلًا منه لتوقيت مستقر.</value>
   </data>
   <data name="Optimizer.Gpu.IntelDisableAsyncFlips.Name" xml:space="preserve">
-    <value>تعطيل ‎Async Flips‎ لكروت ‎Intel‎</value>
+    <value>تعطيل ‎Async Flips‎ في GPU من ‎Intel‎</value>
   </data>
   <data name="Optimizer.Gpu.IntelDisableAsyncFlips.ShortDescription" xml:space="preserve">
-    <value>يضبط ‎Display1_DisableAsyncFlips=1‎ لفرض تبديل المخازن المتزامن على كرت ‎Intel‎ المدمج، ما يقلل زمن الاستجابة وتمزّق الصورة.</value>
+    <value>يضبط ‎Display1_DisableAsyncFlips=1‎ لفرض تبديل المخازن المتزامن على GPU المدمج من ‎Intel‎، ما يقلل زمن الاستجابة وتمزّق الصورة.</value>
   </data>
   <data name="Optimizer.Gpu.NvidiaDisableAsyncPstates.Name" xml:space="preserve">
-    <value>تعطيل ‎Async P-States‎ لكروت ‎NVIDIA‎</value>
+    <value>تعطيل ‎Async P-States‎ في GPU من ‎NVIDIA‎</value>
   </data>
   <data name="Optimizer.Gpu.NvidiaDisableAsyncPstates.ShortDescription" xml:space="preserve">
     <value>يضبط ‎DisableASyncPstates=1‎ لمنع التبديل غير المتزامن لحالات الطاقة في ‎NVIDIA‎، ما يوفر أداءً ثابتًا لتطبيقات الواقع الافتراضي والزمن الحقيقي.</value>
   </data>
   <data name="Optimizer.Gpu.NvidiaDisableDynamicPstate.Name" xml:space="preserve">
-    <value>تعطيل ‎Dynamic P-State‎ لكروت ‎NVIDIA‎</value>
+    <value>تعطيل ‎Dynamic P-State‎ في GPU من ‎NVIDIA‎</value>
   </data>
   <data name="Optimizer.Gpu.NvidiaDisableDynamicPstate.ShortDescription" xml:space="preserve">
-    <value>يضبط ‎DisableDynamicPstate=1‎ لتثبيت كرت ‎NVIDIA‎ على حالة أداء ثابتة ومنع تذبذب الترددات. يزيد استهلاك الطاقة في الخمول.</value>
+    <value>يضبط ‎DisableDynamicPstate=1‎ لتثبيت GPU من ‎NVIDIA‎ على حالة أداء ثابتة ومنع تذبذب الترددات. يزيد استهلاك الطاقة في الخمول.</value>
   </data>
 
   <data name="Optimizer.Menu.HideApplied" xml:space="preserve">
@@ -1135,7 +1135,7 @@
     <value>تعطيل تطبيقات الخلفية</value>
   </data>
   <data name="Optimizer.Performance.DisableBackgroundApps.ShortDescription" xml:space="preserve">
-    <value>يمنع التطبيقات غير النشطة من العمل في الخلفية لتحرير الذاكرة (RAM) وتقليل الحمل على المعالج.</value>
+    <value>يمنع التطبيقات غير النشطة من العمل في الخلفية لتحرير RAM وتقليل الحمل على CPU.</value>
   </data>
   <data name="Optimizer.Performance.KeyboardLatencyOptimization.Name" xml:space="preserve">
     <value>تحسين تكرار لوحة المفاتيح</value>
@@ -1153,7 +1153,7 @@
     <value>إعطاء الأولوية للتطبيقات النشطة</value>
   </data>
   <data name="Optimizer.Performance.ProcessPriority.ShortDescription" xml:space="preserve">
-    <value>يخصص موارد معالج أكثر للتطبيق الذي تستخدمه حاليًا لتجربة أسرع وأكثر استجابة.</value>
+    <value>يخصص موارد CPU أكثر للتطبيق الذي تستخدمه حاليًا لتجربة أسرع وأكثر استجابة.</value>
   </data>
   <data name="Optimizer.Performance.ConsolidateServiceHosts.Error.InvalidRAM" xml:space="preserve">
     <value>قيمة ذاكرة غير صالحة: {0}</value>
@@ -1177,13 +1177,13 @@
     <value>تعطيل خنق طاقة النظام</value>
   </data>
   <data name="Optimizer.PowerManagement.DisablePowerSaving.ShortDescription" xml:space="preserve">
-    <value>يمنع ويندوز من تقييد أداء المعالج (Power Throttling) للحفاظ على أقصى طاقة للمهام النشطة.</value>
+    <value>يمنع Windows من تقييد أداء CPU (Power Throttling) للحفاظ على أقصى طاقة للمهام النشطة.</value>
   </data>
   <data name="Optimizer.PowerManagement.DisableUSBPowerSaving.Name" xml:space="preserve">
     <value>تعطيل توفير طاقة ‎USB‎</value>
   </data>
   <data name="Optimizer.PowerManagement.DisableUSBPowerSaving.ShortDescription" xml:space="preserve">
-    <value>يمنع ويندوز من إيقاف طاقة منافذ ‎USB‎، ما يلغي تأخير الاستيقاظ للفأرة ولوحة المفاتيح والملحقات الأخرى.</value>
+    <value>يمنع Windows من إيقاف طاقة منافذ ‎USB‎، ما يلغي تأخير الاستيقاظ للفأرة ولوحة المفاتيح والملحقات الأخرى.</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.Error.ActivateFailed" xml:space="preserve">
     <value>فشل تفعيل خطة الطاقة الخاصة بـ‎optimizerDuck‎.</value>
@@ -1201,7 +1201,7 @@
     <value>جارٍ استيراد خطة الطاقة وتفعيلها...</value>
   </data>
   <data name="Optimizer.PowerManagement.InstallOptimizerDuckPowerPlan.ShortDescription" xml:space="preserve">
-    <value>يثبّت خطة طاقة مخصصة تركّز على الأداء لضمان عمل نظامك بأقصى سرعة دائمًا. تحذير: قد تُظهر إدارة المهام استهلاك المعالج بنسبة 100% بشكل غير صحيح على بعض الأجهزة، والحمل الفعلي غير متأثر.</value>
+    <value>يثبّت خطة طاقة مخصصة تركّز على الأداء لضمان عمل نظامك بأقصى سرعة دائمًا. تحذير: قد تُظهر إدارة المهام استهلاك CPU بنسبة 100% بشكل غير صحيح على بعض الأجهزة، والحمل الفعلي غير متأثر.</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy" xml:space="preserve">
     <value>الأمان والخصوصية</value>
@@ -1210,25 +1210,25 @@
     <value>تعطيل سجل الأنشطة</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableActivityHistory.ShortDescription" xml:space="preserve">
-    <value>يمنع ويندوز من جمع سجل أنشطتك ومزامنته.</value>
+    <value>يمنع Windows من جمع سجل أنشطتك ومزامنته.</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableAdvertisingAndSuggestions.Name" xml:space="preserve">
     <value>تعطيل الإعلانات والاقتراحات</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableAdvertisingAndSuggestions.ShortDescription" xml:space="preserve">
-    <value>يعطّل الإعلانات المخصصة وميزات ويندوز الاستهلاكية واقتراحات النظام.</value>
+    <value>يعطّل الإعلانات المخصصة وميزات Windows الاستهلاكية واقتراحات النظام.</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableAutoLogger.Name" xml:space="preserve">
     <value>تعطيل التسجيل في الخلفية</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableAutoLogger.ShortDescription" xml:space="preserve">
-    <value>يمنع جلسات WMI/ETW AutoLogger غير الأساسية (Diagtrack-Listener وSQMLogger وغيرها) من البدء عند الإقلاع لتقليل نشاط القرص ووحدة المعالجة المركزية في الخلفية. ملاحظة: قد تشير برامج الأمان إلى تغييرات AutoLogger لأنها تعدّل تتبع التشخيص.</value>
+    <value>يمنع جلسات WMI/ETW AutoLogger غير الأساسية (Diagtrack-Listener وSQMLogger وغيرها) من البدء عند الإقلاع لتقليل نشاط القرص و CPU في الخلفية. ملاحظة: قد تنبّه برامج الحماية إلى تغييرات AutoLogger لأنها تعدّل تتبّع التشخيص.</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableContentDeliveryManager.Name" xml:space="preserve">
     <value>تعطيل المحتوى السحابي</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableContentDeliveryManager.ShortDescription" xml:space="preserve">
-    <value>يوقف المحتوى الذي يوصله ويندوز عبر السحابة، بما في ذلك تلميحات النظام واقتراحات ‎Spotlight‎ والتوصيل التلقائي للميزات الاستهلاكية.</value>
+    <value>يوقف المحتوى الذي يوصله Windows عبر السحابة، بما في ذلك تلميحات النظام واقتراحات ‎Spotlight‎ والتوصيل التلقائي للميزات الاستهلاكية.</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableCopilot.Name" xml:space="preserve">
     <value>تعطيل ‎Windows Copilot‎</value>
@@ -1246,7 +1246,7 @@
     <value>تعطيل تقارير الأخطاء</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableErrorReporting.ShortDescription" xml:space="preserve">
-    <value>يعطّل خدمتَي تقارير أخطاء ويندوز ومساعد توافق البرامج.</value>
+    <value>يعطّل خدمتَي تقارير أخطاء Windows ومساعد توافق البرامج.</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableLocationAndSensors.Name" xml:space="preserve">
     <value>تعطيل الموقع والمستشعرات</value>
@@ -1267,13 +1267,13 @@
     <value>جارٍ تعطيل مهام القياس عن بُعد المجدولة...</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableTelemetry.Progress.EditRegistry" xml:space="preserve">
-    <value>جارٍ تطبيق تغييرات السياسة والريجستري...</value>
+    <value>جارٍ تطبيق تغييرات السياسات و Registry...</value>
   </data>
   <data name="Optimizer.SecurityAndPrivacy.DisableTelemetry.ShortDescription" xml:space="preserve">
-    <value>يعطّل خدمات القياس عن بُعد (Telemetry) وتتبّع الاستخدام في ويندوز لتعزيز خصوصيتك وتقليل النشاط في الخلفية.</value>
+    <value>يعطّل خدمات القياس عن بُعد (Telemetry) وتتبّع الاستخدام في Windows لتعزيز خصوصيتك وتقليل النشاط في الخلفية.</value>
   </data>
   <data name="Optimizer.UI.Risk.Moderate" xml:space="preserve">
-    <value>بحذر</value>
+    <value>حذر</value>
   </data>
   <data name="Optimizer.UI.Risk.Risky" xml:space="preserve">
     <value>للخبراء</value>
@@ -1333,10 +1333,10 @@
     <value>المؤثرات البصرية</value>
   </data>
   <data name="Optimizer.UI.Tags.Windows10Only" xml:space="preserve">
-    <value>ويندوز 10 فقط</value>
+    <value>Windows 10 فقط</value>
   </data>
   <data name="Optimizer.UI.Tags.Windows11Only" xml:space="preserve">
-    <value>ويندوز 11 فقط</value>
+    <value>Windows 11 فقط</value>
   </data>
   <data name="Optimizer.UserExperience" xml:space="preserve">
     <value>تجربة المستخدم</value>
@@ -1351,7 +1351,7 @@
     <value>تعطيل المؤثرات البصرية</value>
   </data>
   <data name="Optimizer.UserExperience.DisableVisualEffects.ShortDescription" xml:space="preserve">
-    <value>يعطّل حركات شريط المهام وظلال القوائم وشفافية النوافذ وميزة ‎Aero Peek‎ لتحرير موارد المعالج وكرت الرسومات وتحسين الأداء.</value>
+    <value>يعطّل حركات شريط المهام وظلال القوائم وشفافية النوافذ وميزة ‎Aero Peek‎ لتحرير موارد CPU و GPU وتحسين الأداء.</value>
   </data>
   <data name="Optimizer.UserExperience.SpeedUpExplorerAndMenus.Name" xml:space="preserve">
     <value>تسريع مستكشف الملفات والقوائم</value>
@@ -1391,7 +1391,7 @@
   </data>
   <data name="RestorePointDialog.Description" xml:space="preserve">
     <value>تتيح لك نقطة الاستعادة إرجاع نظامك إلى حالة سابقة.
-وهي إجراء وقائي لحماية ويندوز قبل تطبيق التغييرات.</value>
+وهي إجراء وقائي لحماية Windows قبل تطبيق التغييرات.</value>
   </data>
   <data name="RestorePointDialog.Help" xml:space="preserve">
     <value>سيفعّل التطبيق استعادة النظام تلقائيًا وينشئ نقطة تحقق باسم «‎optimizerDuck...‎».
@@ -1407,19 +1407,19 @@
     <value>فشلت خطوة التراجع</value>
   </data>
   <data name="Revert.Registry.Description.Delete" xml:space="preserve">
-    <value>حذف قيمة الريجستري: ‎{0}\{1}‎</value>
+    <value>حذف قيمة Registry: ‎{0}\{1}‎</value>
   </data>
   <data name="Revert.Registry.Description.DeleteKey" xml:space="preserve">
-    <value>حذف مفتاح الريجستري: ‎{0}‎</value>
+    <value>حذف مفتاح Registry: ‎{0}‎</value>
   </data>
   <data name="Revert.Registry.Description.Restore" xml:space="preserve">
-    <value>استعادة قيمة الريجستري: ‎{0}\{1}‎</value>
+    <value>استعادة قيمة Registry: ‎{0}\{1}‎</value>
   </data>
   <data name="Revert.Registry.Description.RestoreKey" xml:space="preserve">
-    <value>استعادة مفتاح الريجستري: ‎{0}‎</value>
+    <value>استعادة مفتاح Registry: ‎{0}‎</value>
   </data>
   <data name="Revert.Registry.Description.RevertUnknown" xml:space="preserve">
-    <value>التراجع عن الريجستري: ‎{0}‎</value>
+    <value>التراجع عن تغيير Registry: ‎{0}‎</value>
   </data>
   <data name="Revert.ScheduledTask.Description.Disable" xml:space="preserve">
     <value>تعطيل المهمة المجدولة: ‎{0}‎</value>
@@ -1443,10 +1443,10 @@
     <value>استعادة حالات طاقة التعليق الانتقائي لمنافذ ‎USB‎</value>
   </data>
   <data name="Revert.Hibernation.Description" xml:space="preserve">
-    <value>استعادة حالة السكون</value>
+    <value>استعادة حالة الإسبات</value>
   </data>
   <data name="Revert.Hibernation.Error.RestoreFailed" xml:space="preserve">
-    <value>تعذّر استعادة السكون: {0}</value>
+    <value>تعذّر استعادة الإسبات: {0}</value>
   </data>
   <data name="Revert.UsbPower.Error.RestoreFailed" xml:space="preserve">
     <value>تعذّر استعادة حالات طاقة USB</value>
@@ -1503,7 +1503,7 @@
     <value>لم يتم العثور على المهمة: {0}</value>
   </data>
   <data name="ScheduledTasks.Header.Description" xml:space="preserve">
-    <value>اعرض مهام ويندوز المجدولة وأدِرها.</value>
+    <value>اعرض مهام Windows المجدولة وأدِرها.</value>
   </data>
   <data name="ScheduledTasks.Header.Title" xml:space="preserve">
     <value>المهام المجدولة</value>
@@ -1569,7 +1569,7 @@
     <value>انتهت المهلة</value>
   </data>
   <data name="Settings.About.Acknowledgements.Description" xml:space="preserve">
-    <value>تحقّق optimizerDuck بفضل البرمجيات والموارد مفتوحة المصدر التالية.</value>
+    <value>أصبح optimizerDuck ممكنًا بفضل البرمجيات والموارد مفتوحة المصدر التالية.</value>
   </data>
   <data name="Settings.About.Acknowledgements.Title" xml:space="preserve">
     <value>شكر وتقدير</value>
@@ -1719,7 +1719,7 @@
     <value>{0} عنصر</value>
   </data>
   <data name="StartupManager.Apps.Description" xml:space="preserve">
-    <value>التطبيقات التي تعمل تلقائيًا عند بدء ويندوز.</value>
+    <value>التطبيقات التي تعمل تلقائيًا عند بدء Windows.</value>
   </data>
   <data name="StartupManager.Apps.Title" xml:space="preserve">
     <value>تطبيقات بدء التشغيل</value>
@@ -1731,7 +1731,7 @@
     <value>لا توجد عناصر بدء تشغيل</value>
   </data>
   <data name="StartupManager.Header.Description" xml:space="preserve">
-    <value>أدِر التطبيقات والمهام التي تعمل تلقائيًا عند بدء ويندوز.</value>
+    <value>أدِر التطبيقات والمهام التي تعمل تلقائيًا عند بدء Windows.</value>
   </data>
   <data name="StartupManager.Header.Title" xml:space="preserve">
     <value>مدير بدء التشغيل</value>
@@ -1740,7 +1740,7 @@
     <value>جارٍ فحص عناصر بدء التشغيل...</value>
   </data>
   <data name="StartupManager.Loading.Hint" xml:space="preserve">
-    <value>قد يستغرق هذا لحظة بينما يفحص التطبيق الريجستري ومجلدات بدء التشغيل.</value>
+    <value>قد يستغرق هذا لحظة بينما يفحص التطبيق Registry ومجلدات بدء التشغيل.</value>
   </data>
   <data name="StartupManager.Menu.OpenSettings" xml:space="preserve">
     <value>فتح الإعدادات</value>
@@ -1752,7 +1752,7 @@
     <value>{0} مهمة</value>
   </data>
   <data name="StartupManager.Tasks.Description" xml:space="preserve">
-    <value>مهام ويندوز المهيّأة للعمل عند تسجيل الدخول أو وفق جدول زمني.</value>
+    <value>مهام Windows المهيّأة للعمل عند تسجيل الدخول أو وفق جدول زمني.</value>
   </data>
   <data name="StartupManager.Tasks.HideMicrosoft" xml:space="preserve">
     <value>إخفاء مهام ‎Microsoft‎</value>
@@ -1845,43 +1845,43 @@
     <value>يتطلب Windows 11 24H2 أو أحدث</value>
   </data>
   <data name="Condition.Windows11_24H2.Description" xml:space="preserve">
-    <value>يتطلب هذا العنصر Windows 11 24H2 (البناء 26100) أو أحدث.</value>
+    <value>يتطلب هذا العنصر Windows 11 24H2 (Build 26100) أو أحدث.</value>
   </data>
   <data name="Condition.Cpu.Intel.Title" xml:space="preserve">
-    <value>يتطلب معالج Intel</value>
+    <value>يتطلب CPU من Intel</value>
   </data>
   <data name="Condition.Cpu.Intel.Description" xml:space="preserve">
-    <value>يعمل هذا العنصر فقط على الأنظمة المزودة بمعالج Intel.</value>
+    <value>يعمل هذا العنصر فقط على الأجهزة التي فيها CPU من Intel.</value>
   </data>
   <data name="Condition.Cpu.Amd.Title" xml:space="preserve">
-    <value>يتطلب معالج AMD</value>
+    <value>يتطلب CPU من AMD</value>
   </data>
   <data name="Condition.Cpu.Amd.Description" xml:space="preserve">
-    <value>يعمل هذا العنصر فقط على الأنظمة المزودة بمعالج AMD.</value>
+    <value>يعمل هذا العنصر فقط على الأجهزة التي فيها CPU من AMD.</value>
   </data>
   <data name="Condition.Gpu.Nvidia.Title" xml:space="preserve">
-    <value>يتطلب بطاقة رسوميات NVIDIA</value>
+    <value>يتطلب GPU من NVIDIA</value>
   </data>
   <data name="Condition.Gpu.Nvidia.Description" xml:space="preserve">
-    <value>يعمل هذا العنصر فقط على الأنظمة المزودة ببطاقة رسوميات NVIDIA.</value>
+    <value>يعمل هذا العنصر فقط على الأجهزة التي فيها GPU من NVIDIA.</value>
   </data>
   <data name="Condition.Gpu.Amd.Title" xml:space="preserve">
-    <value>يتطلب بطاقة رسوميات AMD</value>
+    <value>يتطلب GPU من AMD</value>
   </data>
   <data name="Condition.Gpu.Amd.Description" xml:space="preserve">
-    <value>يعمل هذا العنصر فقط على الأنظمة المزودة ببطاقة رسوميات AMD.</value>
+    <value>يعمل هذا العنصر فقط على الأجهزة التي فيها GPU من AMD.</value>
   </data>
   <data name="Condition.Gpu.Intel.Title" xml:space="preserve">
-    <value>يتطلب بطاقة رسوميات Intel</value>
+    <value>يتطلب GPU من Intel</value>
   </data>
   <data name="Condition.Gpu.Intel.Description" xml:space="preserve">
-    <value>يعمل هذا العنصر فقط على الأنظمة المزودة ببطاقة رسوميات Intel.</value>
+    <value>يعمل هذا العنصر فقط على الأجهزة التي فيها GPU من Intel.</value>
   </data>
   <data name="Condition.Ram.16.Title" xml:space="preserve">
-    <value>يتطلب 16 جيجابايت من الذاكرة</value>
+    <value>يتطلب 16 GB من RAM</value>
   </data>
   <data name="Condition.Ram.16.Description" xml:space="preserve">
-    <value>يتطلب هذا العنصر 16 جيجابايت على الأقل من الذاكرة المثبتة.</value>
+    <value>يتطلب هذا العنصر 16 GB على الأقل من RAM المثبتة.</value>
   </data>
   <data name="Condition.Recall.Title" xml:space="preserve">
     <value>Windows Recall غير متوفر</value>
@@ -1905,7 +1905,7 @@
     <value>ما هذا؟</value>
   </data>
   <data name="Optimizer.Condition.WhatIsThis.Tooltip" xml:space="preserve">
-    <value>تتحقق شروط التوافق مما إذا كان العنصر مدعومًا على نظامك، مثل إصدار Windows أو نوع بطاقة الرسوميات المثبتة. عند فشل شرط ما، يُخفى العنصر افتراضيًا لأنه قد لا يعمل. إذا كنت تعرف ما تفعله، يمكنك إخفاء هذا التحذير وتطبيق العنصر على أي حال.</value>
+    <value>تتحقق شروط التوافق مما إذا كان العنصر مدعومًا على نظامك، مثل إصدار Windows أو نوع GPU المثبت. عند فشل شرط ما، يُخفى العنصر افتراضيًا لأنه قد لا يعمل. إذا كنت تعرف ما تفعله، يمكنك إخفاء هذا التحذير وتطبيق العنصر على أي حال.</value>
   </data>
   <data name="Customize.UI.UnsupportedSettings.Header" xml:space="preserve">
     <value>إعدادات غير مدعومة ({0})</value>
@@ -1914,16 +1914,16 @@
     <value>بعض الإعدادات غير متوفرة على نظامك الحالي.</value>
   </data>
   <data name="Optimizer.Performance.LiftWebDavFileSizeLimit.Name" xml:space="preserve">
-    <value>رفع حد 50 ميغابايت لـ WebDAV</value>
+    <value>رفع حد 50 MB لـ WebDAV</value>
   </data>
   <data name="Optimizer.Performance.LiftWebDavFileSizeLimit.ShortDescription" xml:space="preserve">
-    <value>يرفع حد حجم ملفات WebClient لوحدات تخزين WebDAV من 50 ميغابايت إلى 4 غيغابايت لتجنب فشل نقل الملفات الكبيرة عبر الشبكة.</value>
+    <value>يرفع حد حجم الملفات في WebClient لمواقع WebDAV المتصلة من 50 MB إلى 4 GB حتى لا يفشل نقل الملفات الكبيرة عبر الشبكة.</value>
   </data>
   <data name="Optimizer.UserExperience.MaximizeUpdatePauseLimit.Name" xml:space="preserve">
-    <value>زيادة الحد الأقصى لإيقاف التحديثات مؤقتاً</value>
+    <value>زيادة الحد الأقصى لإيقاف التحديثات مؤقتًا</value>
   </data>
   <data name="Optimizer.UserExperience.MaximizeUpdatePauseLimit.ShortDescription" xml:space="preserve">
-    <value>يضبط سقف إيقاف Windows Update مؤقتاً على أكبر قيمة مدعومة. يعمل فقط في إصدارات Windows التي لا تزال تدعم هذا الإعداد؛ تظل تحديثات الأمان متوقفة مؤقتاً أثناء تفعيله.</value>
+    <value>يضبط سقف إيقاف Windows Update مؤقتًا على أكبر قيمة مدعومة. يعمل فقط في إصدارات Windows التي لا تزال تدعم هذا الإعداد؛ تظل تحديثات الأمان متوقفة مؤقتًا أثناء تفعيله.</value>
   </data>
   <data name="Customize.Gaming.DlssIndicator.Name" xml:space="preserve">
     <value>مؤشر تراكب DLSS</value>
@@ -1932,7 +1932,7 @@
     <value>يتحكم في مؤشر DLSS الظاهر على الشاشة للتحقق من إصدار DLSS الفعلي المستخدم في تشغيل اللعبة.</value>
   </data>
   <data name="Customize.Gaming.DlssIndicator.Recommendation.Reason" xml:space="preserve">
-    <value>تراكب تشخيصي؛ اتركه معطلاً إلا إذا كنت تتحقق من أداء DLSS.</value>
+    <value>تراكب تشخيصي؛ اتركه معطلًا إلا إذا كنت تتحقق من أداء DLSS.</value>
   </data>
   <data name="Customize.Gaming.DlssIndicator.Options.Off" xml:space="preserve">
     <value>إيقاف</value>
@@ -1953,22 +1953,22 @@
     <value>رسائل الحالة المفصلة</value>
   </data>
   <data name="Customize.SystemFeatures.VerboseStatus.Description" xml:space="preserve">
-    <value>يعرض الخدمة أو برنامج التشغيل أو الخطوة الدقيقة التي تتم معالجتها أثناء بدء التشغيل وإيقاف التشغيل والتحديثات بدلاً من رمز الانتظار العام.</value>
+    <value>يعرض الخدمة أو التعريف أو الخطوة الجارية بالتحديد أثناء بدء التشغيل وإيقافه والتحديثات، بدلًا من رمز الانتظار العام.</value>
   </data>
   <data name="Customize.SystemFeatures.UtcHardwareClock.Name" xml:space="preserve">
     <value>ساعة العتاد تستخدم توقيت UTC</value>
   </data>
   <data name="Customize.SystemFeatures.UtcHardwareClock.Description" xml:space="preserve">
-    <value>تفسير ساعة العتاد كتوقيت UTC. مطلوب في الإقلاع المزدوج Windows/Linux ليتوافق كلا النظامين في الوقت؛ في الأنظمة الفردية سيتغير الوقت حسب فارق المنطقة الزمنية حتى يتم إيقاف هذا الخيار.</value>
+    <value>يجعل Windows يقرأ ساعة العتاد بتوقيت UTC. مطلوب عند الإقلاع المزدوج مع Linux حتى يتفق النظامان على الوقت؛ أما على جهاز بنظام واحد فسينحرف الوقت بمقدار فرق منطقتك الزمنية إلى أن تعيد إيقاف هذا الخيار.</value>
   </data>
   <data name="Customize.SystemFeatures.UtcHardwareClock.Recommendation.Reason" xml:space="preserve">
-    <value>قم بالتمكين فقط عندما يتعامل نظام تشغيل آخر على هذا الجهاز مع ساعة العتاد كتوقيت UTC أيضاً.</value>
+    <value>فعّله فقط إذا كان على الجهاز نظام تشغيل آخر يعامل ساعة العتاد بتوقيت UTC أيضًا.</value>
   </data>
   <data name="Customize.SystemFeatures.DisableSmartNameResolution.Name" xml:space="preserve">
     <value>الحماية من تسرب DNS</value>
   </data>
   <data name="Customize.SystemFeatures.DisableSmartNameResolution.Description" xml:space="preserve">
-    <value>يعطل دقة الأسماء الذكية متعددة الشبكات لمنع إرسال استعلامات DNS عبر جميع محولات الشبكة في وقت واحد. يمنع الاستعلامات من تجاوز نفق VPN.</value>
+    <value>يعطّل تحليل الأسماء الذكي متعدد الشبكات (Smart Multi-Homed Name Resolution) حتى لا تُرسَل استعلامات DNS عبر جميع محولات الشبكة في وقت واحد. يمنع الاستعلامات من تجاوز نفق VPN عند استخدامه.</value>
   </data>
   <data name="Customize.Preferences.CombineTaskbarButtons.Name" xml:space="preserve">
     <value>دمج أزرار شريط المهام</value>
@@ -1989,7 +1989,7 @@
     <value>جارٍ تحميل الإعدادات...</value>
   </data>
   <data name="BloatwareDialog.UnusualWarning.Title" xml:space="preserve">
-    <value>تحذير:اسم حزمة غير معتاد</value>
+    <value>تحذير: اسم حزمة غير معتاد</value>
   </data>
   <data name="BloatwareDialog.UnusualWarning.Description" xml:space="preserve">
     <value>الحزمة (الحزم) التالية لها معرفات غير معتادة أو تنسيقات اسم لم يتم التحقق منها. قد تتسبب إزالة الحزم ذات الأسماء غير المعتادة في حدوث أخطاء أو إزالة ملفات غير مقصودة. يرجى المراجعة بعناية قبل المتابعة.</value>
@@ -2001,22 +2001,22 @@
     <value>مجلد بدء التشغيل (كل المستخدمين)</value>
   </data>
   <data name="Startup.Location.RegistryHKCURun" xml:space="preserve">
-    <value>السجل (المستخدم الحالي)</value>
+    <value>Registry (المستخدم الحالي)</value>
   </data>
   <data name="Startup.Location.RegistryHKCURunOnce" xml:space="preserve">
-    <value>السجل RunOnce (المستخدم الحالي)</value>
+    <value>Registry RunOnce (المستخدم الحالي)</value>
   </data>
   <data name="Startup.Location.RegistryHKLMRun" xml:space="preserve">
-    <value>السجل (الجهاز المحلي)</value>
+    <value>Registry (الجهاز المحلي)</value>
   </data>
   <data name="Startup.Location.RegistryHKLMRun32" xml:space="preserve">
-    <value>السجل (الجهاز المحلي، 32 بت)</value>
+    <value>Registry (الجهاز المحلي، 32 بت)</value>
   </data>
   <data name="Startup.Location.RegistryHKLMRunOnce" xml:space="preserve">
-    <value>السجل RunOnce (الجهاز المحلي)</value>
+    <value>Registry RunOnce (الجهاز المحلي)</value>
   </data>
   <data name="Startup.Location.RegistryHKLMRunOnce32" xml:space="preserve">
-    <value>السجل RunOnce (الجهاز المحلي، 32 بت)</value>
+    <value>Registry RunOnce (الجهاز المحلي، 32 بت)</value>
   </data>
   <data name="Startup.Location.UserStartupFolder" xml:space="preserve">
     <value>مجلد بدء التشغيل (المستخدم الحالي)</value>
@@ -2031,10 +2031,10 @@
     <value>خطة الطاقة المثبتة {0}</value>
   </data>
   <data name="Revert.PowerPlan.Error.RestoreFailed" xml:space="preserve">
-    <value>فشل في استعادة خطة الطاقة السابقة: {0}.</value>
+    <value>تعذّر استعادة خطة الطاقة السابقة: {0}.</value>
   </data>
   <data name="Revert.PowerPlan.Error.DeleteFailed" xml:space="preserve">
-    <value>فشل في حذف خطة الطاقة optimizerDuck: {0}</value>
+    <value>تعذّر حذف خطة طاقة optimizerDuck: {0}</value>
   </data>
   <data name="Revert.PowerPlan.Error.NothingToDo" xml:space="preserve">
     <value>لا يوجد ما يمكن التراجع عنه: لم يتم تسجيل خطة الطاقة السابقة أو المثبتة.</value>
@@ -2082,19 +2082,19 @@
     <value>BIOS القديم</value>
   </data>
   <data name="Enum.SecureBootState.Enabled" xml:space="preserve">
-    <value>ممكن</value>
+    <value>مفعّل</value>
   </data>
   <data name="Enum.SecureBootState.Disabled" xml:space="preserve">
-    <value>معطل</value>
+    <value>معطّل</value>
   </data>
   <data name="Enum.SecureBootState.Unavailable" xml:space="preserve">
     <value>غير متوفر</value>
   </data>
   <data name="Enum.VbsState.Enabled" xml:space="preserve">
-    <value>ممكن</value>
+    <value>مفعّل</value>
   </data>
   <data name="Enum.VbsState.Disabled" xml:space="preserve">
-    <value>معطل</value>
+    <value>معطّل</value>
   </data>
   <data name="Enum.VbsState.Unavailable" xml:space="preserve">
     <value>غير متوفر</value>
@@ -2142,16 +2142,16 @@
     <value>في وقت محدد</value>
   </data>
   <data name="ScheduledTasks.Trigger.Daily" xml:space="preserve">
-    <value>يوميا</value>
+    <value>يوميًا</value>
   </data>
   <data name="ScheduledTasks.Trigger.Weekly" xml:space="preserve">
-    <value>أسبوعيا</value>
+    <value>أسبوعيًا</value>
   </data>
   <data name="ScheduledTasks.Trigger.Monthly" xml:space="preserve">
-    <value>شهريا</value>
+    <value>شهريًا</value>
   </data>
   <data name="ScheduledTasks.Trigger.MonthlyDOW" xml:space="preserve">
-    <value>شهريا</value>
+    <value>شهريًا</value>
   </data>
   <data name="ScheduledTasks.Trigger.Idle" xml:space="preserve">
     <value>عند الخمول</value>
@@ -2211,10 +2211,10 @@
     <value>في {0}</value>
   </data>
   <data name="ScheduledTasks.TriggerDetail.Daily" xml:space="preserve">
-    <value>كل {0} من الأيام، في {1}</value>
+    <value>كل {0} يوم، الساعة {1}</value>
   </data>
   <data name="ScheduledTasks.TriggerDetail.Weekly" xml:space="preserve">
-    <value>كل {0} من الأسابيع في {1}، في {2}</value>
+    <value>كل {0} أسبوع يوم {1}، الساعة {2}</value>
   </data>
   <data name="ScheduledTasks.TriggerDetail.Monthly" xml:space="preserve">
     <value>في اليوم {0} من {1}</value>
@@ -2238,7 +2238,7 @@
     <value> (التكرار كل {0} لمدة {1})</value>
   </data>
   <data name="Optimizer.UI.State.AlreadyOptimal" xml:space="preserve">
-    <value>مُحسَّن مسبقاً</value>
+    <value>مُحسَّن مسبقًا</value>
   </data>
   <data name="Optimizer.UI.State.AlreadyOptimal.Tooltip" xml:space="preserve">
     <value>هذا الجهاز مطابق لهذا التحسين بالفعل، لذا لا يوجد ما يجب تغييره.</value>
@@ -2280,7 +2280,7 @@
     <value>تغيّر</value>
   </data>
   <data name="Optimizer.Details.Step.AlreadyCorrect" xml:space="preserve">
-    <value>مطابق مسبقاً</value>
+    <value>مطابق مسبقًا</value>
   </data>
   <data name="Optimizer.Details.Step.NotApplicable" xml:space="preserve">
     <value>لا ينطبق</value>
@@ -2301,7 +2301,7 @@
     <value>هذا التحسين يتعلق بالبيانات التي يجمعها Windows ويرسلها.</value>
   </data>
   <data name="Optimizer.UI.Tags.System.Tooltip" xml:space="preserve">
-    <value>هذا التحسين يمسّ جزءاً أساسياً من Windows، مكوّناً أو سياسة، فالأفضل أن تقرأ ما يفعله أولاً.</value>
+    <value>هذا التحسين يمسّ جزءًا أساسيًا من Windows، مكوّنًا أو سياسة، فالأفضل أن تقرأ ما يفعله أولًا.</value>
   </data>
   <data name="Optimizer.UI.Tags.Performance.Tooltip" xml:space="preserve">
     <value>هذا التحسين يتعلق بالأداء والأعمال التي تعمل في الخلفية.</value>
@@ -2316,16 +2316,16 @@
     <value>هذا التحسين يتعلق بطريقة استخدام Windows للذاكرة.</value>
   </data>
   <data name="Optimizer.UI.Tags.Display.Tooltip" xml:space="preserve">
-    <value>هذا التحسين يتعلق بما تُخرجه الشاشة أو كرت الرسوميات.</value>
+    <value>هذا التحسين يتعلق بما تُخرجه الشاشة أو GPU.</value>
   </data>
   <data name="Optimizer.UI.Tags.Nvidia.Tooltip" xml:space="preserve">
-    <value>هذا التحسين يتعلق فقط بالأجهزة ذات كرت رسوميات NVIDIA ولا يفعل شيئاً على غيرها.</value>
+    <value>هذا التحسين خاص بالأجهزة التي فيها GPU من NVIDIA ولا يفعل شيئًا على غيرها.</value>
   </data>
   <data name="Optimizer.UI.Tags.Amd.Tooltip" xml:space="preserve">
-    <value>هذا التحسين يتعلق فقط بالأجهزة ذات كرت رسوميات AMD ولا يفعل شيئاً على غيرها.</value>
+    <value>هذا التحسين خاص بالأجهزة التي فيها GPU من AMD ولا يفعل شيئًا على غيرها.</value>
   </data>
   <data name="Optimizer.UI.Tags.Intel.Tooltip" xml:space="preserve">
-    <value>هذا التحسين يتعلق فقط بالأجهزة ذات كرت رسوميات Intel ولا يفعل شيئاً على غيرها.</value>
+    <value>هذا التحسين خاص بالأجهزة التي فيها GPU من Intel ولا يفعل شيئًا على غيرها.</value>
   </data>
   <data name="Optimizer.UI.Tags.Power.Tooltip" xml:space="preserve">
     <value>هذا التحسين يتعلق بالطاقة، أي عمر البطارية أو الحرارة أو صوت المروحة.</value>
@@ -2334,7 +2334,7 @@
     <value>هذا التحسين يتعلق بالشبكة والاتصال وحركة البيانات عليه.</value>
   </data>
   <data name="Optimizer.UI.Tags.NetworkRequired.Tooltip" xml:space="preserve">
-    <value>هذا التحسين يحتاج اتصالاً بالإنترنت لأنه ينزّل شيئاً.</value>
+    <value>هذا التحسين يحتاج اتصالًا بالإنترنت لأنه ينزّل شيئًا.</value>
   </data>
   <data name="Optimizer.UI.Tags.Audio.Tooltip" xml:space="preserve">
     <value>هذا التحسين يتعلق بطريقة تشغيل الصوت ومعالجته.</value>
@@ -2343,7 +2343,7 @@
     <value>هذا التحسين يتعلق بمظهر Windows ومؤثراته وحركاته.</value>
   </data>
   <data name="Optimizer.UI.Tags.Windows10Only.Tooltip" xml:space="preserve">
-    <value>هذا التحسين لـ Windows 10 فقط ولا يفعل شيئاً على Windows 11.</value>
+    <value>هذا التحسين لـ Windows 10 فقط ولا يفعل شيئًا على Windows 11.</value>
   </data>
   <data name="Optimizer.UI.Tags.Windows11Only.Tooltip" xml:space="preserve">
     <value>هذا التحسين لـ Windows 11 فقط ويُحجب على Windows 10.</value>
@@ -2361,10 +2361,10 @@
     <value>حذف القيمة {0}</value>
   </data>
   <data name="Optimizer.Details.Op.RegistryCreateKey" xml:space="preserve">
-    <value>إنشاء مفتاح في السجل</value>
+    <value>إنشاء مفتاح في Registry</value>
   </data>
   <data name="Optimizer.Details.Op.RegistryDeleteKey" xml:space="preserve">
-    <value>حذف مفتاح من السجل</value>
+    <value>حذف مفتاح من Registry</value>
   </data>
   <data name="Optimizer.Details.Field.Path" xml:space="preserve">
     <value>المسار</value>
@@ -2388,7 +2388,7 @@
     <value>تغيير الخدمة {0}</value>
   </data>
   <data name="Optimizer.Details.Op.TaskEnable" xml:space="preserve">
-    <value>تمكين المهمة {0}</value>
+    <value>تفعيل المهمة {0}</value>
   </data>
   <data name="Optimizer.Details.Op.TaskDisable" xml:space="preserve">
     <value>تعطيل المهمة {0}</value>
@@ -2403,7 +2403,7 @@
     <value>تغيير إعداد الطاقة {0}</value>
   </data>
   <data name="Optimizer.Details.Op.Hibernation" xml:space="preserve">
-    <value>إيقاف الإسبات والبدء السريع</value>
+    <value>إيقاف الإسبات وبدء التشغيل السريع</value>
   </data>
   <data name="Optimizer.Details.Op.UsbPower" xml:space="preserve">
     <value>إيقاف توفير طاقة USB</value>
@@ -2445,7 +2445,7 @@
     <value>استعادة القيمة {0}</value>
   </data>
   <data name="Optimizer.Details.Op.RegistryRestoreKey" xml:space="preserve">
-    <value>استعادة مفتاح السجل</value>
+    <value>استعادة مفتاح Registry</value>
   </data>
   <data name="Optimizer.Details.Op.ServiceRestore" xml:space="preserve">
     <value>استعادة الخدمة {0}</value>
@@ -2460,13 +2460,13 @@
     <value>استعادة إعداد الطاقة {0}</value>
   </data>
   <data name="Optimizer.Details.Op.HibernationRestore" xml:space="preserve">
-    <value>استعادة الإسبات والبدء السريع</value>
+    <value>استعادة الإسبات وبدء التشغيل السريع</value>
   </data>
   <data name="Optimizer.Details.Op.HibernationEnable" xml:space="preserve">
-    <value>إعادة تشغيل الإسبات والبدء السريع</value>
+    <value>إعادة تفعيل الإسبات وبدء التشغيل السريع</value>
   </data>
   <data name="Optimizer.Details.Op.UsbPowerRestore" xml:space="preserve">
-    <value>إعادة تشغيل توفير طاقة USB</value>
+    <value>إعادة تفعيل توفير طاقة USB</value>
   </data>
   <data name="Optimizer.Details.Field.StartupState" xml:space="preserve">
     <value>نوع البدء</value>
@@ -2484,10 +2484,10 @@
     <value>إظهار ملف السجل</value>
   </data>
   <data name="OptimizationDetailsDialog.Other.OpenRecordFile.Description" xml:space="preserve">
-    <value>يفتح الملف الذي يسجّل فيه optimizerDuck ما فعله هذا التحسين. يبقى بعد التراجع لتتمكن من مراجعته لاحقاً.</value>
+    <value>يفتح الملف الذي يسجّل فيه optimizerDuck ما فعله هذا التحسين. يبقى بعد التراجع لتتمكن من مراجعته لاحقًا.</value>
   </data>
   <data name="Optimizer.Details.Provider.Registry" xml:space="preserve">
-    <value>السجل</value>
+    <value>Registry</value>
   </data>
   <data name="Optimizer.Details.Provider.Service" xml:space="preserve">
     <value>الخدمة</value>
@@ -2520,13 +2520,13 @@
     <value>هذه المهمة غير موجودة على هذا الجهاز</value>
   </data>
   <data name="Optimizer.Details.Reason.RegistryValueAbsent" xml:space="preserve">
-    <value>هذه القيمة لم تكن موجودة أصلاً</value>
+    <value>هذه القيمة لم تكن موجودة أصلًا</value>
   </data>
   <data name="Optimizer.Details.Reason.RegistryKeyExists" xml:space="preserve">
-    <value>هذا المفتاح كان موجوداً مسبقاً</value>
+    <value>هذا المفتاح كان موجودًا مسبقًا</value>
   </data>
   <data name="Optimizer.Details.Reason.RegistryKeyAbsent" xml:space="preserve">
-    <value>هذا المفتاح لم يكن موجوداً أصلاً</value>
+    <value>هذا المفتاح لم يكن موجودًا أصلًا</value>
   </data>
   <data name="Optimizer.Details.Reason.UsbNoDevices" xml:space="preserve">
     <value>لا توجد منافذ USB جذرية على هذا الجهاز</value>
