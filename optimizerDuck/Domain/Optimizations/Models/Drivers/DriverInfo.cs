@@ -14,6 +14,12 @@ public sealed class DriverInfo
     private const string CatalogSearchBase =
         "https://www.catalog.update.microsoft.com/Search.aspx?q=";
 
+    /// <summary>
+    ///     Buses whose IDs carry no vendor/device pair but are still indexed by the catalog
+    ///     (for example <c>ACPI\INT33A1</c> or <c>MONITOR\DELA0F0</c>).
+    /// </summary>
+    private static readonly string[] WholeIdBuses = ["ACPI", "MONITOR"];
+
     public required string DeviceName { get; init; }
 
     public string Provider { get; init; } = string.Empty;
@@ -42,54 +48,68 @@ public sealed class DriverInfo
     public bool HasHardwareId => !string.IsNullOrWhiteSpace(HardwareId);
 
     /// <summary>
-    ///     Microsoft Update Catalog search for this device, keyed on its hardware ID when one is
-    ///     known (the catalog indexes drivers by ID), otherwise on the device name.
+    ///     The Microsoft Update Catalog query for this device, or <see langword="null"/> when the
+    ///     catalog cannot have a driver for it (virtual and software devices).
     /// </summary>
-    public string CatalogSearchUrl =>
-        CatalogSearchBase + Uri.EscapeDataString(BuildCatalogQuery(HardwareId, DeviceName));
+    public string? CatalogQuery => BuildCatalogQuery(HardwareId);
 
     /// <summary>
-    ///     Reduces a hardware ID to the vendor and device pair the catalog matches on, e.g.
-    ///     <c>PCI\VEN_10DE&amp;DEV_2484&amp;SUBSYS_...&amp;REV_A1</c> becomes
-    ///     <c>VEN_10DE&amp;DEV_2484</c>. Subsystem and revision suffixes make catalog searches
-    ///     miss drivers that cover the whole device family.
+    ///     False for devices whose driver only ships with Windows, such as Bluetooth services
+    ///     (<c>BTHENUM</c>), software devices (<c>SWD</c>) and root-enumerated devices.
     /// </summary>
-    public static string BuildCatalogQuery(string? hardwareId, string deviceName)
+    public bool CanSearchCatalog => CatalogQuery is not null;
+
+    public string CatalogSearchUrl =>
+        CatalogSearchBase + Uri.EscapeDataString(CatalogQuery ?? string.Empty);
+
+    /// <summary>
+    ///     Trims a hardware ID to the form the catalog lists in a driver's supported IDs: the bus,
+    ///     then every segment up to the device, e.g.
+    ///     <c>PCI\VEN_10DE&amp;DEV_2484&amp;SUBSYS_...&amp;REV_A1</c> becomes
+    ///     <c>PCI\VEN_10DE&amp;DEV_2484</c>. Subsystem, revision and interface suffixes would
+    ///     make the search miss drivers written for the whole device family.
+    ///     Returns <see langword="null"/> when the ID names no hardware the catalog could serve.
+    /// </summary>
+    public static string? BuildCatalogQuery(string? hardwareId)
     {
         if (string.IsNullOrWhiteSpace(hardwareId))
-            return deviceName.Trim();
+            return null;
 
         var id = hardwareId.Trim();
         var slash = id.IndexOf('\\', StringComparison.Ordinal);
-        var body = slash >= 0 ? id[(slash + 1)..] : id;
-        var parts = body.Split('&', StringSplitOptions.RemoveEmptyEntries);
+        if (slash <= 0 || slash == id.Length - 1)
+            return null;
 
-        string? vendor = null;
-        string? device = null;
-        foreach (var part in parts)
+        var bus = id[..slash];
+        var parts = id[(slash + 1)..].Split('&', StringSplitOptions.RemoveEmptyEntries);
+
+        var hasVendor = false;
+        for (var i = 0; i < parts.Length; i++)
         {
+            var part = parts[i];
             if (
-                vendor is null
-                && (
-                    part.StartsWith("VEN_", StringComparison.OrdinalIgnoreCase)
-                    || part.StartsWith("VID_", StringComparison.OrdinalIgnoreCase)
-                )
+                part.StartsWith("VEN_", StringComparison.OrdinalIgnoreCase)
+                || part.StartsWith("VID_", StringComparison.OrdinalIgnoreCase)
             )
-                vendor = part;
+            {
+                hasVendor = true;
+            }
             else if (
-                device is null
+                hasVendor
                 && (
                     part.StartsWith("DEV_", StringComparison.OrdinalIgnoreCase)
                     || part.StartsWith("PID_", StringComparison.OrdinalIgnoreCase)
                 )
             )
-                device = part;
+            {
+                return $"{bus}\\{string.Join('&', parts[..(i + 1)])}";
+            }
         }
 
-        if (vendor is not null && device is not null)
-            return $"{vendor}&{device}";
+        if (WholeIdBuses.Contains(bus, StringComparer.OrdinalIgnoreCase))
+            return $"{bus}\\{parts[0]}";
 
-        return id;
+        return null;
     }
 
     /// <summary>

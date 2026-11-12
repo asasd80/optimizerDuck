@@ -2582,4 +2582,7 @@ Mettez à jour pour profiter des dernières fonctionnalités, améliorations et 
   <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
     <value>Rechercher le pilote de ce périphérique dans le catalogue Microsoft Update</value>
   </data>
+  <data name="Drivers.Action.SearchOnline.Unavailable" xml:space="preserve">
+    <value>Il s'agit d'un périphérique virtuel dont le pilote est fourni avec Windows ; le catalogue n'a donc rien pour lui. Utilisez plutôt Windows Update.</value>
+  </data>
 </root>

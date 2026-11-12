@@ -2573,4 +2573,7 @@ En son özelliklerden, iyileştirmelerden ve hata düzeltmelerinden yararlanmak 
   <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
     <value>Bu aygıtın sürücüsünü Microsoft Update Kataloğu'nda ara</value>
   </data>
+  <data name="Drivers.Action.SearchOnline.Unavailable" xml:space="preserve">
+    <value>Bu, sürücüsü Windows ile gelen sanal bir aygıttır; bu nedenle katalogda onun için bir şey yoktur. Bunun yerine Windows Update'i kullanın.</value>
+  </data>
 </root>

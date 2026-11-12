@@ -2577,4 +2577,7 @@
   <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
     <value>在 Microsoft Update 目錄中搜尋此裝置的驅動程式</value>
   </data>
+  <data name="Drivers.Action.SearchOnline.Unavailable" xml:space="preserve">
+    <value>這是隨 Windows 提供驅動程式的虛擬裝置，因此目錄中沒有相關內容。請改用 Windows Update。</value>
+  </data>
 </root>

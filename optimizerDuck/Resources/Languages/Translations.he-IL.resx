@@ -2639,4 +2639,7 @@
   <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
     <value>חפש את מנהל ההתקן של התקן זה בקטלוג Microsoft Update</value>
   </data>
+  <data name="Drivers.Action.SearchOnline.Unavailable" xml:space="preserve">
+    <value>זהו התקן וירטואלי שמנהל ההתקן שלו מגיע עם Windows, ולכן אין עבורו דבר בקטלוג. השתמש ב-Windows Update במקום זאת.</value>
+  </data>
 </root>

@@ -2624,5 +2624,8 @@
   <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
     <value>ابحث في كتالوج Microsoft Update عن تعريف هذا الجهاز</value>
   </data>
+  <data name="Drivers.Action.SearchOnline.Unavailable" xml:space="preserve">
+    <value>هذا جهاز افتراضي يأتي تعريفه مع Windows، فلا يوجد له شيء في الكتالوج. استخدم Windows Update بدلًا من ذلك.</value>
+  </data>
 </root>
 

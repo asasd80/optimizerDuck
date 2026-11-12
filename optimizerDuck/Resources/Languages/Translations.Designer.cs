@@ -7574,5 +7574,14 @@ namespace optimizerDuck.Resources.Languages {
                 return ResourceManager.GetString("Drivers.Action.SearchOnline.Tooltip", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This is a virtual device whose driver comes with Windows, so the catalog has nothing for it. Use Windows Update instead..
+        /// </summary>
+        internal static string Drivers_Action_SearchOnline_Unavailable {
+            get {
+                return ResourceManager.GetString("Drivers.Action.SearchOnline.Unavailable", resourceCulture);
+            }
+        }
     }
 }

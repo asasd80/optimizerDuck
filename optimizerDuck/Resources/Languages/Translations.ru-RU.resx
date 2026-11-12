@@ -2582,4 +2582,7 @@
   <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
     <value>Найти драйвер этого устройства в каталоге Центра обновления Майкрософт</value>
   </data>
+  <data name="Drivers.Action.SearchOnline.Unavailable" xml:space="preserve">
+    <value>Это виртуальное устройство, драйвер которого поставляется с Windows, поэтому в каталоге для него ничего нет. Используйте Windows Update.</value>
+  </data>
 </root>

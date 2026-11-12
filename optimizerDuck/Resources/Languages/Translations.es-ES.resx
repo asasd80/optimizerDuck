@@ -4387,4 +4387,7 @@ Actualiza ahora para disfrutar de las nuevas funciones y mejoras.</value>
   <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
     <value>Buscar el controlador de este dispositivo en el Catálogo de Microsoft Update</value>
   </data>
+  <data name="Drivers.Action.SearchOnline.Unavailable" xml:space="preserve">
+    <value>Es un dispositivo virtual cuyo controlador viene con Windows, así que el catálogo no tiene nada para él. Usa Windows Update en su lugar.</value>
+  </data>
 </root>

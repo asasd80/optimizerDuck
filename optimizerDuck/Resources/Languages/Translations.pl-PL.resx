@@ -2582,4 +2582,7 @@ Zaktualizuj teraz, aby korzystać z najnowszych funkcji, ulepszeń i poprawek b�
   <data name="Drivers.Action.SearchOnline.Tooltip" xml:space="preserve">
     <value>Wyszukaj sterownik tego urządzenia w Wykazie usługi Microsoft Update</value>
   </data>
+  <data name="Drivers.Action.SearchOnline.Unavailable" xml:space="preserve">
+    <value>To urządzenie wirtualne, którego sterownik jest dostarczany z systemem Windows, więc wykaz nie ma dla niego nic. Użyj zamiast tego Windows Update.</value>
+  </data>
 </root>
